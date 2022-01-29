@@ -149,7 +149,7 @@ ul {
   border-radius: 1.5rem;
 }
 .br-round {
-  border-radius: 99.9rem;
+  border-radius: 50%;
 }
 
 /* width */
@@ -169,7 +169,7 @@ ul {
 .w-auto {
   width: auto;
 } */
-/* height */
+
 .w-40 {
   width: 40%;
 }
@@ -177,6 +177,8 @@ ul {
 .w-60 {
   width: 60%;
 }
+
+/* height */
 
 .h-25 {
   height: 25%;
