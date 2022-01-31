@@ -1,0 +1,33 @@
+.sidebar_components {
+  min-height: 100vh;
+  position: static;
+  top: 0;
+  overflow-y: auto;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+/* .list_heading {
+} */
+.list_heading a {
+  font-size: 1.6rem;
+  font-weight: 500;
+  display: block;
+  padding: 1rem;
+}
+/* .components {
+} */
+.components li > a {
+  display: block;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: (--font-bold);
+}
+.components li:active {
+  background-color: var(--primary-color-hover);
+}
+
+.components li :hover {
+  background-color: var(--light-grey);
+}
