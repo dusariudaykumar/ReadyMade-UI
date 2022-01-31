@@ -9,12 +9,22 @@
   /* --card-background: #f4dfba; */
   /* --info-color: #5dc4eb;
   --info-bg: #5dc4eb1a; */
+
+  --primary-alert-bgcolor: #e5f6fd;
+  --primary-alert-color: #528298;
   --warning-color: #ffc95c;
+  --warning-icon-color: #ffa117;
   --warning-bg: #ffc95c1a;
   --danger-color: #fa7178;
+  --danger-icon-color: #f27c79;
   --danger-bg: #fa71781a;
+  --info-icon-color: #1ab1f5;
+  --info-color: #729cae;
+  --info-bg-color: #e5f6fd;
   --success-color: #03c99b;
   --success-bg: #03c99b1a;
+  --success-icon-color: #5cb660;
+
   --text-color: #ffffff;
   --dark-grey: #646464;
   --grey: #969696;

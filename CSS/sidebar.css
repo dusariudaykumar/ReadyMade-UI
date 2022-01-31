@@ -3,13 +3,14 @@
   position: static;
   top: 0;
   overflow-y: auto;
+  border-right: 2px solid black;
 }
 .sidebar {
   display: flex;
   flex-direction: column;
 }
-/* .list_heading {
-} */
+.list_heading {
+}
 .list_heading a {
   font-size: 1.6rem;
   font-weight: 500;

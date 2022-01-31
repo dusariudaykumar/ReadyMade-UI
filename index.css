@@ -22,7 +22,18 @@
 .content {
   font-size: 1.3rem;
   margin: auto;
-  line-height: 2rem;
+  line-height: 3rem;
+}
+.content h4 {
+  font-family: "Nunito Sans", sans-serif;
+}
+.content h4 span {
+  color: var(--primary-color);
+}
+.content p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5rem;
 }
 button {
   border: none;
@@ -31,6 +42,8 @@ button {
   font-size: 1rem;
   margin-top: 1rem;
   cursor: pointer;
+  margin: 1rem;
+  font-size: 1.3rem;
 }
 .btn_install {
   margin-right: 1rem;
