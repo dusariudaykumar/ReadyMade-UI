@@ -2,6 +2,7 @@
 
 .alert {
   padding: 1rem;
+  max-width: 50rem;
   font-size: 1.2rem;
   border: 1px solid var(--light-grey);
   margin: 0.3rem;

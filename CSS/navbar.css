@@ -42,7 +42,7 @@
 /* media queries */
 @media (max-width: 480px) {
   .nav_bar {
-    justify-content: space-around;
+    width: max-content;
   }
   .container {
     width: 100%;
