@@ -1,0 +1,43 @@
+:root {
+  --default-font-size: 87.5%; /* 14px */
+  --primary-color: #6366f1;
+  /* --primary-bg: #ca965c1a; */
+  --primary-color-hover: #8789f3;
+  /* --secondary-color: #876445;
+  --secondary-bg: #8764451a; */
+  --background-color: #fff;
+  /* --card-background: #f4dfba; */
+  /* --info-color: #5dc4eb;
+  --info-bg: #5dc4eb1a; */
+
+  --primary-alert-bgcolor: #e5f6fd;
+  --primary-alert-color: #528298;
+  --warning-color: #ffc95c;
+  --warning-icon-color: #ffa117;
+  --warning-bg: #ffc95c1a;
+  --danger-color: #fa7178;
+  --danger-icon-color: #f27c79;
+  --danger-bg: #fa71781a;
+  --info-icon-color: #1ab1f5;
+  --info-color: #729cae;
+  --info-bg-color: #e5f6fd;
+  --success-color: #03c99b;
+  --success-bg: #03c99b1a;
+  --success-icon-color: #5cb660;
+
+  --text-color: #ffffff;
+  --dark-grey: #646464;
+  --grey: #969696;
+  --grey-highlight: #96969633;
+  --light-grey: #f0f0f0;
+  --default-box-shadow: 0px 0px 6px -2px grey;
+  --padding: 0.25rem;
+  --margin: 0.25rem;
+  --font-light: 300;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+  --button-border: 0.25rem;
+  --white: #ffffff;
+  --black: #000000;
+}

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@import url("/CSS/utility.css");
+@import url("/CSS/variable.css");
+@import url("/CSS/navbar.css");
+@import url("/CSS/sidebar.css");
+@import url("/Components/Alert/alert.css");
+@import url("/Components/Avatar/avatar.css");
+/************* Body of project **********/
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--default-font-size);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}

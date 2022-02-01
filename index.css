@@ -1,12 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
-
-/* @import url("./CSS/utility.css"); */
-@import url("./CSS/navbar.css");
+@import url("./CSS/main.css");
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   /* outline: 1px solid red; */
 }
 
@@ -16,6 +9,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 80%;
+  margin: auto;
 }
 .image-container {
   width: 300px;
@@ -24,21 +19,49 @@
   max-inline-size: 100%;
   block-size: auto;
 }
-
+.content {
+  font-size: 1.3rem;
+  margin: auto;
+  line-height: 3rem;
+}
+.content h4 {
+  font-family: "Nunito Sans", sans-serif;
+}
+.content h4 span {
+  color: var(--primary-color);
+}
+.content p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
 button {
   border: none;
   padding: 0.5rem;
   border-radius: 0.4rem;
   font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
   margin: 1rem;
+  font-size: 1.3rem;
 }
 .btn_install {
   margin-right: 1rem;
-  border: 2px solid #6366f1;
+  border: 1px solid #6366f1;
   background-color: transparent;
   color: #6366f1;
+}
+.btn_install:hover {
+  background-color: #6366f1;
+  color: #fff;
 }
 .btn_doc {
   background-color: #6366f1;
   color: #fff;
+}
+
+.btn_doc:hover {
+  background-color: #fff;
+  color: #6366f1;
+  border: 1px solid #6366f1;
 }

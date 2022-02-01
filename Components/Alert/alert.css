@@ -1,0 +1,71 @@
+@import url("/CSS/main.css");
+
+.alert {
+  padding: 1rem;
+  max-width: 50rem;
+  font-size: 1.2rem;
+  border: 1px solid var(--light-grey);
+  margin: 0.3rem;
+}
+.alert .fas {
+  font-size: 1.5rem;
+  margin-right: 0.3rem;
+}
+.alert a {
+  text-decoration: underline;
+  color: blue;
+  margin-left: 0.2rem;
+}
+.alert-primary {
+  background-color: var(--primary-alert-bgcolor);
+  color: var(--primary-alert-color);
+}
+.alert-error {
+  background-color: var(--danger-bg);
+  color: var(--danger-color);
+}
+.alert-warning {
+  background-color: var(--warning-bg);
+  color: var(--warning-icon-color);
+}
+.alert-info {
+  background-color: var(--info-bg-color);
+  color: var(--info-color);
+}
+.alert-success {
+  background-color: var(--success-bg);
+  color: var(--success-color);
+}
+
+.action-alert-success {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--success-bg);
+  color: var(--success-color);
+}
+
+.action-alert-x {
+  font-weight: 400;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+}
+.action-alert-x:hover {
+  color: var(--danger-color);
+}
+.action-alert-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: inherit;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+.action-alert-btn:hover {
+  background-color: var(--light-grey);
+}
