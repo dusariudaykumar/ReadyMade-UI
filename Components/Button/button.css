@@ -1,6 +1,7 @@
 @import url("/CSS/main.css");
 
-.btn {
+.btn,
+.btn-disabled {
   outline: none;
   border: none;
   padding: 0.9rem;
@@ -40,6 +41,7 @@
   border-bottom: 2px solid var(--primary-color);
   cursor: pointer;
 }
+
 .btn-link:hover {
   background-color: var(--light-grey);
   border: radius 0.4rem;
@@ -58,10 +60,8 @@
   border-radius: 0;
   border-bottom: 2px solid var(--primary-color-hover);
 }
-.disabled-btn-link a {
-  cursor: default;
-}
 
+/******* button float **********/
 .btn-float {
   width: 4rem;
   height: 4rem;
