@@ -1,0 +1,59 @@
+@import url("/CSS/main.css");
+
+.badge-container {
+  position: relative;
+  display: inline-flex;
+}
+.badge-container img {
+  margin: 0.4rem;
+}
+.badge-online {
+  background-color: #4caf50;
+}
+.badge-offonline {
+  background-color: #808080;
+}
+.badge-dnd {
+  background-color: #f44336;
+}
+.badge-container .badge {
+  padding: 7px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0.4rem;
+  left: 4.7rem;
+  border: 2px solid var(--white);
+}
+
+.badge-container span i {
+  font-size: 4rem;
+  padding: 0.4rem 1rem;
+}
+.icon-badge,
+.icon-badge-count {
+  padding: 5px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  position: absolute;
+  top: 0.4rem;
+  left: 4.7rem;
+  width: auto;
+}
+.bell-icon {
+  width: 2rem;
+  height: 2rem;
+  font-size: 0.8rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  left: 2.9rem;
+  top: 0.1rem;
+  border: 0.2rem solid var(--white);
+}
+.icon-badge-count {
+  font-size: 10px;
+  text-align: center;
+  min-height: 10px;
+  padding: 5px;
+  color: var(--white);
+}

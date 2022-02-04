@@ -1,0 +1,131 @@
+@import url("/CSS/main.css");
+
+.btn,
+.btn-disabled {
+  outline: none;
+  border: none;
+  padding: 0.9rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin: 0.3rem;
+  border-radius: 0.4rem;
+}
+
+.btn-solid {
+  background-color: var(--primary-color);
+  color: var(--white);
+  cursor: pointer;
+}
+.btn-icon:hover,
+.btn-solid:hover,
+.btn-float:hover {
+  background-color: var(--primary-color-hover);
+}
+.btn-outline {
+  border: 2px solid var(--primary-color);
+  background-color: transparent;
+  cursor: pointer;
+}
+.btn-outline:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+.btn-icon {
+  background-color: var(--primary-color);
+  color: var(--white);
+  cursor: pointer;
+}
+.btn-link {
+  border-radius: 0;
+  background-color: transparent;
+  border-bottom: 2px solid var(--primary-color);
+  cursor: pointer;
+}
+
+.btn-link:hover {
+  background-color: var(--light-grey);
+  border: radius 0.4rem;
+}
+
+.disabled-btn-solid,
+.disabled-btn-icon {
+  background-color: var(--primary-color-hover);
+  color: var(--white);
+}
+.disabled-btn-outline {
+  outline: 2px solid var(--primary-color-hover);
+}
+
+.disabled-btn-link {
+  border-radius: 0;
+  border-bottom: 2px solid var(--primary-color-hover);
+}
+
+/******* button float **********/
+.btn-float {
+  width: 4rem;
+  height: 4rem;
+  font-size: 2.2rem;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: var(--white);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--default-box-shadow);
+  cursor: pointer;
+  margin: 2rem 10%;
+  border: none;
+  outline: none;
+}
+
+/********** toggle ************/
+.btn-toggle {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 34px;
+  outline: none;
+}
+.slider-round {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--grey);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.toggle {
+  display: none;
+}
+.slider-round:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: var(--white);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.toggle:checked + .slider-round {
+  background-color: var(--primary-color);
+}
+
+.toggle:checked + .slider-round:before {
+  transform: translateX(26px);
+}
+
+.slider-round {
+  border-radius: 34px;
+}
+
+.slider-round:before {
+  border-radius: 50%;
+}
