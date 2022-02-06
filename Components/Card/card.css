@@ -56,7 +56,7 @@
 .card-rating {
   font-size: 1.1rem;
   margin-top: 0.6rem;
-  background-color: #ff7c03;
+  background-color: var(--btn-cart-color);
   width: fit-content;
   aspect-ratio: 2/1;
   color: var(--white);
