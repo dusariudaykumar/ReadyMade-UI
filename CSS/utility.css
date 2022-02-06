@@ -125,7 +125,7 @@ a {
 }
 .code-snippet-display iframe {
   width: 100%;
-  border: none;
+  border: 1px solid var(--primary-color);
 }
 
 /********** active sidebar *************/
