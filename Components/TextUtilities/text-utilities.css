@@ -3,7 +3,6 @@
 .heading-wrapper {
   justify-content: center;
   align-items: center;
-  background-color: var(--light-grey);
 }
 .heading-wrapper > * {
   margin: 0.5rem;

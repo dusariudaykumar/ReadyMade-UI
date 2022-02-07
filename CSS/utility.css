@@ -116,7 +116,7 @@ a {
 /******** code snippet ********/
 .code-snippet-display {
   box-sizing: border-box;
-  max-width: 850px;
+  max-width: 100%;
   max-height: 350px;
   padding: 1rem 0;
   margin: 2rem 2rem 2rem 0;
@@ -124,7 +124,12 @@ a {
 }
 .code-snippet-display iframe {
   width: 100%;
+  background-color: var(--light-gray);
   /* border: 1px solid var(--primary-color); */
+}
+.code-snippet-display ::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 /********** active sidebar *************/
