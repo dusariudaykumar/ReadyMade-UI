@@ -16,7 +16,7 @@
   width: 100%;
   height: auto;
 }
-.r-image {
+.center-image {
   justify-content: center;
   align-items: center;
   background-color: var(--light-grey);
