@@ -3,8 +3,9 @@
 .component-content {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  margin-left: 0.5rem;
+  width: 80%;
+  margin: 2rem auto;
+  grid-area: "main";
 }
 /* .component-content p {
   width: 80%;
@@ -14,10 +15,10 @@
 }
 
 .elements-wrapper {
-  margin: 1rem 0;
+  margin: 1rem 1rem;
   padding: 0.3rem;
   border: 1px solid var(--light-grey);
-  max-width: 50rem;
+  max-width: 100%;
 }
 
 .avatar-circle {

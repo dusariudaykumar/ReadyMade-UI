@@ -1,0 +1,43 @@
+@import url("/CSS/main.css");
+
+.heading-wrapper {
+  justify-content: center;
+  align-items: center;
+}
+.heading-wrapper > * {
+  margin: 0.5rem;
+}
+.paragraph-wrapper > * {
+  margin: 0.7rem;
+  padding: 0.6rem;
+}
+
+.p-lg {
+  font-size: 1.3rem;
+}
+.p-rg {
+  font-size: 1.15rem;
+}
+.p-sm {
+  font-size: 12px;
+}
+.text-style-wrapper > * {
+  padding: 0.6rem;
+  margin: 0.3rem;
+}
+.text-mark {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+.center-text {
+  text-align: center;
+}
+.gray-text {
+  color: var(--grey);
+  font-size: 1.3rem;
+}
+
+.p-strick {
+  text-decoration: line-through;
+  font-size: 1.3rem;
+}

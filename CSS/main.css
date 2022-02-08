@@ -12,6 +12,9 @@
 @import url("/Components/Card/card.css");
 @import url("/Components/Images/images.css");
 @import url("/Components/Input/input.css");
+@import url("/Components/TextUtilities/text-utilities.css");
+@import url("/Components/Ratings/rating.css");
+@import url("/Components/Lists/lists.css");
 /************* Body of project **********/
 *,
 *:before,
