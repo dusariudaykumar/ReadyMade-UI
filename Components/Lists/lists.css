@@ -1,0 +1,55 @@
+@import url("/CSS/main.css");
+.list-wrapper {
+  width: fit-content;
+  margin: auto;
+  border: 1px solid var(--light-grey);
+}
+.list-title {
+  font-size: 1.4rem;
+  padding: 0.4rem 1.7rem;
+  border-bottom: 1px solid var(--black);
+  font-weight: 600;
+  margin-top: 0.4rem;
+}
+.categories-items li {
+  list-style: none;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 1rem;
+  cursor: pointer;
+}
+.categories-items li:hover {
+  color: var(--primary-color);
+}
+.stacked-list {
+  margin: auto;
+  max-width: 20rem;
+}
+.notification-item {
+  list-style: none;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 0.2rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  box-shadow: var(--default-box-shadow);
+}
+.notification-item img {
+  margin-right: 0.4rem;
+}
+
+.styled-list {
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+.list-style-square {
+  list-style: square;
+}
+.list-style-circle {
+  list-style: circle;
+}
+.ul-list {
+  flex-wrap: wrap;
+}

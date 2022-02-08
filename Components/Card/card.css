@@ -1,6 +1,6 @@
 @import url("/CSS/main.css");
 
-.flex {
+.flex-center {
   display: flex;
   justify-content: center;
   align-items: center;

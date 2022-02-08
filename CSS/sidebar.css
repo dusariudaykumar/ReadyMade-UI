@@ -3,6 +3,7 @@
   position: static;
   top: 0;
   overflow-y: auto;
+  grid-area: "aside";
   border-right: 1px solid var(--light-grey);
 }
 .sidebar {

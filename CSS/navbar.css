@@ -4,7 +4,6 @@
 .container {
   min-height: 10vh;
   width: 100%;
-  height: max-content;
   margin: auto;
 }
 
@@ -17,6 +16,8 @@
   flex-wrap: wrap;
   /* background-color: var(--primary-color);
   color: var(--white); */
+
+  box-shadow: 0 3px 5px -3px var(--primary-color-hover);
 }
 
 .nav_left {
@@ -39,7 +40,7 @@
 /* media queries */
 @media (max-width: 480px) {
   .nav_bar {
-    width: max-content;
+    width: 100%;
   }
   .container {
     width: 100%;
