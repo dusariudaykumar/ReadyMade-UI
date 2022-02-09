@@ -2,7 +2,6 @@
 
 .alert {
   padding: 1rem;
-  max-width: 50rem;
   font-size: 1.2rem;
   border: 1px solid var(--light-grey);
   margin: 0.3rem;
@@ -38,18 +37,23 @@
 }
 
 .action-alert-success {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
   background-color: var(--success-bg);
   color: var(--success-color);
+  position: relative;
 }
 
 .action-alert-x {
-  font-weight: 400;
+  font-weight: 500;
+  border: 1px solid transparent;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0.75rem;
+  position: absolute;
+  top: 0;
+  right: 0;
   cursor: pointer;
-  font-size: 1.4rem;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
 }
 .action-alert-x:hover {
   color: var(--danger-color);
@@ -58,11 +62,18 @@
   background-color: transparent;
   outline: none;
   border: none;
+  width: fit-content;
+  height: 1.5rem;
+  margin: 0.85rem;
   color: inherit;
   padding: 0.4rem;
   border-radius: 0.4rem;
   cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
 }
 .action-alert-btn:hover {
-  background-color: var(--light-grey);
+  color: var(--danger-color);
 }

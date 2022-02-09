@@ -165,3 +165,7 @@
 .card-cart-btn:hover {
   opacity: 0.93;
 }
+/* Text only  card */
+.card-description {
+  padding: 0.4rem;
+}
