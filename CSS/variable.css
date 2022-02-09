@@ -1,15 +1,8 @@
 :root {
   --default-font-size: 87.5%; /* 14px */
   --primary-color: #6467f2;
-  /* --primary-bg: #ca965c1a; */
   --primary-color-hover: #8789f3;
-  /* --secondary-color: #876445;
-  --secondary-bg: #8764451a; */
   --background-color: #fff;
-  /* --card-background: #f4dfba; */
-  /* --info-color: #5dc4eb;
-  --info-bg: #5dc4eb1a; */
-
   --primary-alert-bgcolor: #e5f6fd;
   --primary-alert-color: #528298;
   --warning-color: #ffc95c;
@@ -43,4 +36,5 @@
   --card-icon-color: #f2180a;
   --btn-buy-color: #ff9f00;
   --btn-cart-color: #fb641b;
+  --rating-color: #ffb400;
 }
