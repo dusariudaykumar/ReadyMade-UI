@@ -1,7 +1,5 @@
 @import url("./CSS/main.css");
 
-.home-page {
-}
 .grid-50-50-layout {
   display: grid;
   grid-template-columns: 50% 50%;
