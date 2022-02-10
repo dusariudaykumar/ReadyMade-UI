@@ -11,37 +11,71 @@
     <div class="container">
       <nav class="nav_bar">
         <div class="nav_left">
-          <a class="" href="#">ReadyMade-UI</a>
+          <a class="" href="/index.html">ReadyMade-UI</a>
         </div>
         <ul class="nav_right">
-          <li class="nav_home list-item-inline">
-            <a class="" href=""> Home</a>
-          </li>
           <li class="nav_docs list-item-inline">
             <a class="" href="/Components/Alert/alert.html">Docs</a>
+          </li>
+          <li class="nav-git list-item-inline">
+            <a href="https://github.com/dusariudaykumar/ReadyMade-UI">
+              <img
+                class="git-icon"
+                src="/images/GitHub-Mark-64px.png"
+                alt="git"
+              />
+            </a>
           </li>
         </ul>
       </nav>
 
-      <section>
-        <div class="ui-discription">
-          <div class="image-container">
-            <img src="./images/Design inspiration-amico.svg" alt="" />
-          </div>
+      <section class="home-page">
+        <div class="ui-discription flex grid-50-50-layout">
           <div class="content">
-            <h4><span>ReadyMade-UI</span> the Component Librabry.</h4>
+            <h3>
+              <span class="highlight-txt">ReadyMade-UI</span> the Component
+              Library
+            </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
-              inventore! Dolor quam soluta eos. Omnis molestiae officiis sint
-              est laborum illum veniam, corrupti libero, perferendis minima nisi
-              aliquam quidem! Tempore?
+              The Best Component Library Tools to Help You Scale Your Product
+              Consistently and Efficiently
             </p>
+            <div class="home-buttons">
+              <button class="btn_install btn-outline">
+                <a href="#installation">Installation</a>
+              </button>
+              <button class="btn_doc btn-solid">
+                <a href="/Components/Alert/alert.html">Documentation</a>
+              </button>
+            </div>
           </div>
-          <div class="home-buttons">
-            <button class="btn_install">Installation</button>
-            <button class="btn_doc">
-              <a href="/Components/Alert/alert.html">Documentation</a>
-            </button>
+          <div class="image-container">
+            <img src="./images/Design inspiration-amico.svg" alt="image" />
+          </div>
+        </div>
+      </section>
+      <section class="installation-page grid-50-50-layout">
+        <div class="installation-info" id="installation">
+          <h4>Installation</h4>
+          <p>
+            Copy and paste the code in the head tag of your html document. So
+            that you can style your components by just adding class names to
+            your html elements.
+          </p>
+        </div>
+        <div class="installation-code-snippet">
+          <div class="code-snippet-display code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Freadymade-ui.netlify.app%252FCSS%252Fmain.css%2522%253E"
+              style="
+                background-color: #fafafa;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
           </div>
         </div>
       </section>
