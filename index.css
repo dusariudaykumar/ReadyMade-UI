@@ -1,67 +1,114 @@
 @import url("./CSS/main.css");
-* {
-  /* outline: 1px solid red; */
-}
 
+.grid-50-50-layout {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "content  image-container";
+}
 .ui-discription {
-  margin: 1rem;
-  display: flex;
-  flex-direction: column;
+  width: 90%;
+  margin: 2rem auto;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 80%;
-  margin: auto;
 }
 .image-container {
-  width: 300px;
+  width: 100%;
+  margin: auto;
+  grid-area: "image-container";
 }
 .image-container img {
-  max-inline-size: 100%;
-  block-size: auto;
+  max-width: 100%;
 }
 .content {
   font-size: 1.3rem;
   margin: auto;
-  line-height: 3rem;
+  grid-area: "content";
 }
-.content h4 {
+.content h3 {
   font-family: "Nunito Sans", sans-serif;
 }
-.content h4 span {
-  color: var(--primary-color);
-}
+
 .content p {
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 1.5rem;
+}
+.home-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.3rem;
+  padding: 0.4rem;
 }
 button {
   border: none;
   padding: 0.5rem;
   border-radius: 0.4rem;
   font-size: 1rem;
-  margin-top: 1rem;
   cursor: pointer;
   margin: 1rem;
   font-size: 1.3rem;
 }
 .btn_install {
-  margin-right: 1rem;
-  border: 1px solid #6366f1;
-  background-color: transparent;
-  color: #6366f1;
-}
-.btn_install:hover {
-  background-color: #6366f1;
-  color: #fff;
+  margin: 0.3rem !important;
 }
 .btn_doc {
-  background-color: #6366f1;
-  color: #fff;
+  margin: 0.3rem;
+}
+.installation-page {
+  display: flex;
+  margin: 1rem;
+  height: 50vh;
+  border-top: 2px solid var(--primary-color);
+}
+.installation-info {
+  grid-area: "content";
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.installation-info h4 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2.2rem;
+}
+.installation-info p {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+}
+.installation-code-snippet {
+  grid-area: "image-container";
+  width: 100%;
+  margin: 0 !important;
 }
 
-.btn_doc:hover {
-  background-color: #fff;
-  color: #6366f1;
-  border: 1px solid #6366f1;
+@media only screen and (max-width: 480px) {
+  .grid-50-50-layout {
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "image-content"
+      "left-content";
+  }
+  .image-container {
+    grid-area: "image-content";
+    width: 100%;
+    order: 1;
+  }
+  .content {
+    grid-area: "left-content";
+    order: 2;
+  }
+  .installation-page {
+    all: unset;
+    margin: 1rem;
+  }
+  .installation-info {
+    margin: 0.3rem;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .installation-page {
+    all: unset;
+    margin: 1rem;
+  }
 }

@@ -129,7 +129,7 @@ a {
   .component-content {
     width: 100%;
   }
-  .nav_right {
+  .nav_right .nav_doc {
     display: none;
   }
   .nav_left {
