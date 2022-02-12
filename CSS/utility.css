@@ -120,7 +120,7 @@ a {
   grid: 100px auto / repeat(5, 1fr);
   grid-template-areas:
     "header header header header header"
-    "sidebar products products products products"
+    ". products products products ."
     "left-footer left-footer . right-footer right-footer";
   grid-gap: 20px;
 }
