@@ -163,7 +163,7 @@
 }
 .card-buy-btn:hover,
 .card-cart-btn:hover {
-  opacity: 0.93;
+  opacity: 0.8;
 }
 /* Text only  card */
 .card-description {
