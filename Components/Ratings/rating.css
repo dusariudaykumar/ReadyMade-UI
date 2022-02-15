@@ -21,9 +21,15 @@
 .rating-badge {
   border: 1px solid var(--light-grey);
   font-size: var(--default-font-size);
+  align-items: center;
+  padding: 0.2rem;
 }
 .rating-badge-number {
-  padding: 0.2rem;
+  padding: 0.1rem;
+  /* margin: 0.1rem; */
+}
+.rating-badge-number i {
+  padding-left: 0.2rem;
 }
 .rating-badge-solid {
   display: inline-flex;
