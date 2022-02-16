@@ -19,7 +19,7 @@
 .btn-icon:hover,
 .btn-solid:hover,
 .btn-float:hover {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .btn-outline {
   border: 2px solid var(--primary-color);
