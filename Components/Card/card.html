@@ -1,365 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Uday Kumar" />
-    <meta name="description" content="ReadyMade-UI is a UI Component Library" />
-    <link
-      rel="shortcut icon"
-      href="/images/ReadyMade-comp-logo.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="/CSS/main.css" />
-    <title>ReadyMade-UI | Card</title>
-  </head>
-  <body>
-    <div class="container">
-      <nav class="nav_bar">
-        <div class="nav_left">
-          <a href="/index.html">ReadyMade UI</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Uday Kumar" />
+  <meta name="description" content="ReadyMade-UI is a UI Component Library" />
+  <link rel="shortcut icon" href="/images/ReadyMade-comp-logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="/CSS/main.css" />
+  <title>ReadyMade-UI | Card</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="nav_bar">
+      <div class="nav_left">
+        <a href="/index.html">ReadyMade UI</a>
+      </div>
+      <ul class="nav_right">
+        <li class="nav_docs list-item-inline">
+          <a href="#">Docs</a>
+        </li>
+        <li class="nav-git list-item-inline">
+          <a href="https://github.com/dusariudaykumar/ReadyMade-UI">
+            <img class="git-icon" src="/images/GitHub-Mark-64px.png" alt="git" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="doc_container grid-30-70-layout">
+      <!-- side components list -->
+      <div class="sidebar_components">
+        <div class="sidebar">
+          <div class="list_heading">
+            <a href="/Components/Alert/alert.html">components</a>
+          </div>
+          <ul class="list_item list-non-bullet components">
+            <li>
+              <a href="/Components/Alert/alert.html">Alert</a>
+            </li>
+            <li>
+              <a href="/Components/Avatar/avatar.html">Avatar</a>
+            </li>
+            <li>
+              <a href="/Components/Badge/badge.html">Badge</a>
+            </li>
+            <li>
+              <a href="/Components/Button/button.html">Button</a>
+            </li>
+            <li class="active">
+              <a href="/Components/Card/card.html">Card</a>
+            </li>
+            <li>
+              <a href="/Components/Images/images.html">Images</a>
+            </li>
+            <li>
+              <a href="/Components/Input/input.html">Input</a>
+            </li>
+            <li>
+              <a href="/Components/TextUtilities/text-utilities.html">Text Utilities</a>
+            </li>
+            <li>
+              <a href="/Components/Ratings/rating.html">Rating</a>
+            </li>
+            <li>
+              <a href="/Components/Lists/lists.html">Lists</a>
+            </li>
+          </ul>
         </div>
-        <ul class="nav_right">
-          <li class="nav_docs list-item-inline">
-            <a href="#">Docs</a>
-          </li>
-          <li class="nav-git list-item-inline">
-            <a href="https://github.com/dusariudaykumar/ReadyMade-UI">
-              <img
-                class="git-icon"
-                src="/images/GitHub-Mark-64px.png"
-                alt="git"
-              />
-            </a>
-          </li>
-        </ul>
-      </nav>
+      </div>
+      <!-- component -->
 
-      <div class="doc_container grid-30-70-layout">
-        <!-- side components list -->
-        <div class="sidebar_components">
-          <div class="sidebar">
-            <div class="list_heading">
-              <a href="/Components/Alert/alert.html">components</a>
+      <div class="component-content">
+        <h1 class="component_heading">Cards</h1>
+        <br />
+        <p>
+          A card is a flexible and extensible content container. It includes options for headers and content, a wide
+          variety of content, contextual background colors, and powerful display options. These cards can replace our
+          old panels, wells, and thumbnails. Similar functionality to those components is available as modifier classes
+          for cards.
+        </p>
+        <br />
+        <br />
+        <!-- card with badge -->
+        <h6>Examples of Cards with Badge</h6>
+        <br />
+        <div class="elements-wrapper flex-center">
+          <div class="card-outer-container">
+            <div class="card-inner-container">
+              <div class="card-image">
+                <img src="/images/controller-black-1.jpg" alt="ps5" />
+                <span class="card-label">New</span>
+              </div>
+              <div class="card-info flex-col">
+                <span class="card-title">PS5™ Controller</span>
+                <span class="card-rating"><i class="fas fa-star"></i> 5</span>
+                <div class="price-details">
+                  <span class="current-price">₹5,499</span>
+                  <span class="previous-price">₹5,990 </span>
+                  <span class="discount-percentage">8% off </span>
+                  <button class="btn-wishlist">
+                    <i class="fas fa-heart"></i>
+                  </button>
+                </div>
+              </div>
             </div>
-            <ul class="list_item list-non-bullet components">
-              <li>
-                <a href="/Components/Alert/alert.html">Alert</a>
-              </li>
-              <li>
-                <a href="/Components/Avatar/avatar.html">Avatar</a>
-              </li>
-              <li>
-                <a href="/Components/Badge/badge.html">Badge</a>
-              </li>
-              <li>
-                <a href="/Components/Button/button.html">Button</a>
-              </li>
-              <li class="active">
-                <a href="/Components/Card/card.html">Card</a>
-              </li>
-              <li>
-                <a href="/Components/Images/images.html">Images</a>
-              </li>
-              <li>
-                <a href="/Components/Input/input.html">Input</a>
-              </li>
-              <li>
-                <a href="/Components/TextUtilities/text-utilities.html"
-                  >Text Utilities</a
-                >
-              </li>
-              <li>
-                <a href="/Components/Ratings/rating.html">Rating</a>
-              </li>
-              <li>
-                <a href="/Components/Lists/lists.html">Lists</a>
-              </li>
-            </ul>
           </div>
         </div>
-        <!-- component -->
+        <div class="code-snippet-display">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522card-outer-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-inner-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Fcontroller-black-1.jpg%2522%2520alt%253D%2522ps5%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-label%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-title%2522%253EPS5%25E2%2584%25A2%2520Controller%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-rating%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%25205%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522current-price%2522%253E%25E2%2582%25B95%252C499%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522previous-price%2522%253E%25E2%2582%25B95%252C990%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount-percentage%2522%253E8%2525%2520off%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-wishlist%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E"
+            style="
+                border: 0;
+                transform: scale(1);
+                background-color: #fafafa;
+                overflow: hidden;
+              " sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <!-- Card with Dismiss -->
+        <h6>Examples of Card with Dismiss</h6>
+        <br />
 
-        <div class="component-content">
-          <h1 class="component_heading">Cards</h1>
-          <br />
-          <p>
-            Card are used to show user related data collectively, like product
-            details.
-          </p>
-          <br />
-          <br />
-          <!-- card with badge -->
-          <h6>Examples of Cards with Badge</h6>
-          <br />
-          <div class="elements-wrapper flex-center">
-            <div class="card-outer-container">
-              <div class="card-inner-container">
-                <div class="card-image">
-                  <img src="/images/controller-black-1.jpg" alt="ps5" />
-                  <span class="card-label">New</span>
+        <div class="elements-wrapper light-gray flex-center">
+          <div class="card-outer-container">
+            <div class="card-inner-container">
+              <div class="card-image">
+                <img src="/images/controller-black-1.jpg" alt="ps5" />
+                <span class="card-label">New</span>
+              </div>
+              <div class="card-info flex-col">
+                <span class="card-title">PS5™ Controller</span>
+                <span class="card-rating"><i class="fas fa-star"></i> 5</span>
+                <div class="price-details">
+                  <span class="current-price">₹5,499</span>
+                  <span class="previous-price">₹5,990 </span>
+                  <span class="discount-percentage">8% off </span>
+                  <button class="btn-close">
+                    <i class="material-icons"> close </i>
+                  </button>
                 </div>
-                <div class="card-info flex-col">
-                  <span class="card-title">PS5™ Controller</span>
-                  <span class="card-rating"><i class="fas fa-star"></i> 5</span>
-                  <div class="price-details">
-                    <span class="current-price">₹5,499</span>
-                    <span class="previous-price">₹5,990 </span>
-                    <span class="discount-percentage">8% off </span>
-                    <button class="btn-wishlist">
-                      <i class="fas fa-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="code-snippet-display">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card-outer-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-inner-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Fcontroller-black-1.jpg%2522%2520alt%253D%2522ps5%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-label%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-title%2522%253EPS5%25E2%2584%25A2%2520Controller%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-rating%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%25205%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522current-price%2522%253E%25E2%2582%25B95%252C499%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522previous-price%2522%253E%25E2%2582%25B95%252C990%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount-percentage%2522%253E8%2525%2520off%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-close%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+            style="
+                border: 0;
+                transform: scale(1);
+                background-color: #fafafa;
+                overflow: hidden;
+              " sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <!-- Card with Shadow -->
+        <h6>Example of Card with Shadow</h6>
+        <br />
+        <div class="elements-wrapper light-gray flex-center">
+          <div class="card-outer-container card-shadow">
+            <div class="card-inner-container">
+              <div class="card-image">
+                <img src="/images/controller-black-1.jpg" alt="ps5" />
+                <span class="card-label">New</span>
+              </div>
+              <div class="card-info flex-col">
+                <span class="card-title">PS5™ Controller</span>
+                <span class="card-rating"><i class="fas fa-star"></i> 5</span>
+                <div class="price-details">
+                  <span class="current-price">₹5,499</span>
+                  <span class="previous-price">₹5,990 </span>
+                  <span class="discount-percentage">8% off </span>
+                  <button class="btn-close">
+                    <i class="material-icons"> close </i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="code-snippet-display">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card-outer-container%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-inner-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Fcontroller-black-1.jpg%2522%2520alt%253D%2522ps5%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-label%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-title%2522%253EPS5%25E2%2584%25A2%2520Controller%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-rating%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%25205%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522current-price%2522%253E%25E2%2582%25B95%252C499%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522previous-price%2522%253E%25E2%2582%25B95%252C990%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount-percentage%2522%253E8%2525%2520off%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-close%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+            style="
+                border: 0;
+                transform: scale(1);
+                background-color: #fafafa;
+                overflow: hidden;
+              " sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <!-- Card with Text Overlay -->
+        <h6>Example of Card with Text Overlay</h6>
+        <br />
+        <div class="elements-wrapper light-gray flex-center">
+          <div class="card-outer-container">
+            <div class="card-inner-container overlay-container">
+              <div class="card-image">
+                <img src="/images/controller-black-1.jpg" alt="ps5" />
+                <span class="card-label">New</span>
+              </div>
+              <div class="card-info flex-col">
+                <span class="card-title">PS5™ Controller</span>
+                <span class="card-rating"><i class="fas fa-star"></i> 5</span>
+                <div class="price-details">
+                  <span class="current-price">₹5,499</span>
+                  <span class="previous-price">₹5,990 </span>
+                  <span class="discount-percentage">8% off </span>
+                  <button class="btn-wishlist">
+                    <i class="fas fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <span class="overlay-text">Out of Stock</span>
+          </div>
+        </div>
+        <div class="code-snippet-display">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-outer-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-inner-container%2520overlay-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Fcontroller-black-1.jpg%2522%2520alt%253D%2522ps5%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-label%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-title%2522%253EPS5%25E2%2584%25A2%2520Controller%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-rating%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%25205%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522current-price%2522%253E%25E2%2582%25B95%252C499%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522previous-price%2522%253E%25E2%2582%25B95%252C990%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount-percentage%2522%253E8%2525%2520off%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-wishlist%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522overlay-text%2522%253EOut%2520of%2520Stock%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+            style="
+                border: 0;
+                transform: scale(1);
+                background-color: #fafafa;
+                overflow: hidden;
+              " sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <!-- vertical cards -->
+        <h6>Examples of Vertical Card</h6>
+        <br />
+        <div class="elements-wrapper light-gray flex-center">
+          <div class="card-outer-container">
+            <div class="card-inner-container vertical-card">
+              <div class="card-image">
+                <img src="/images/playstation-5-console-edition.png" alt="ps5" />
+
+                <span class="card-label">Bestseller</span>
+              </div>
+              <div class="card-info flex-col">
+                <span class="card-title">SONY PlayStation 5 825 GB with Astro'sPlayroom
+                  (White)</span>
+                <span class="card-rating"><i class="fas fa-star"></i> 5</span>
+                <div class="price-details">
+                  <span class="current-price">₹49,990</span>
+                  <span class="previous-price">₹54,990 </span>
+                  <span class="discount-percentage">8% off </span>
+
+                  <button class="btn-close">
+                    <i class="material-icons"> close </i>
+                  </button>
+                  <div class="card-btns">
+                    <button class="card-cart-btn">
+                      <i class="material-icons"> shopping_cart </i> Add To
+                      Cart
+                    </button>
+                    <button class="card-buy-btn">
+                      <i class="material-icons">flash_on </i>Buy Now
                     </button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="code-snippet-display">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522card-outer-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-inner-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Fcontroller-black-1.jpg%2522%2520alt%253D%2522ps5%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-label%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-title%2522%253EPS5%25E2%2584%25A2%2520Controller%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-rating%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%25205%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522current-price%2522%253E%25E2%2582%25B95%252C499%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522previous-price%2522%253E%25E2%2582%25B95%252C990%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount-percentage%2522%253E8%2525%2520off%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-wishlist%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E"
-              style="
+        </div>
+        <div class="code-snippet-display">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-outer-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-inner-container%2520vertical-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Fplaystation-5-console-edition.png%2522%2520alt%253D%2522ps5%2522%2520%252F%253E%250A%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-label%2522%253EBestseller%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-title%2522%253ESONY%2520PlayStation%25205%2520825%2520GB%2520with%2520Astro%27sPlayroom%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%28White%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-rating%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%25205%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522current-price%2522%253E%25E2%2582%25B949%252C990%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522previous-price%2522%253E%25E2%2582%25B954%252C990%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount-percentage%2522%253E8%2525%2520off%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522previous-price%2522%253E%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount-percentage%2522%253E%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-close%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-cart-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%253E%2520shopping_cart%2520%253C%252Fi%253E%2520Add%2520To%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-buy-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%253Eflash_on%2520%253C%252Fi%253EBuy%2520Now%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
                 border: 0;
                 transform: scale(1);
                 background-color: #fafafa;
                 overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
-          <!-- Card with Dismiss -->
-          <h6>Examples of Card with Dismiss</h6>
-          <br />
-
-          <div class="elements-wrapper light-gray flex-center">
-            <div class="card-outer-container">
-              <div class="card-inner-container">
-                <div class="card-image">
-                  <img src="/images/controller-black-1.jpg" alt="ps5" />
-                  <span class="card-label">New</span>
-                </div>
-                <div class="card-info flex-col">
-                  <span class="card-title">PS5™ Controller</span>
-                  <span class="card-rating"><i class="fas fa-star"></i> 5</span>
-                  <div class="price-details">
-                    <span class="current-price">₹5,499</span>
-                    <span class="previous-price">₹5,990 </span>
-                    <span class="discount-percentage">8% off </span>
-                    <button class="btn-close">
-                      <i class="material-icons"> close </i>
+              " sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <h6>Examples of Text only cards</h6>
+        <br />
+        <div class="elements-wrapper flex-center">
+          <div class="card-outer-container">
+            <div class="card-inner-container">
+              <div class="card-title">
+                <h3>Play Station 5</h3>
+              </div>
+              <div class="card-info flex-col">
+                <div class="price-details">
+                  <span class="current-price">₹49,990</span>
+                  <span class="previous-price">₹54,990 </span>
+                  <span class="discount-percentage">8% off </span>
+                  <br />
+                  <p class="card-description">
+                    Experience lightning-fast loading with an ultra-high-speed
+                    SSD, deeper immersion with support for haptic feedback,
+                    adaptive triggers and 3D Audio1, and an all-new generation
+                    of incredible PlayStation games.
+                  </p>
+                  <div class="card-btns">
+                    <button class="card-cart-btn">
+                      <i class="material-icons"> shopping_cart </i> Add To
+                      Cart
+                    </button>
+                    <button class="card-buy-btn">
+                      <i class="material-icons">flash_on </i>Buy Now
                     </button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="code-snippet-display">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card-outer-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-inner-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Fcontroller-black-1.jpg%2522%2520alt%253D%2522ps5%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-label%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-title%2522%253EPS5%25E2%2584%25A2%2520Controller%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-rating%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%25205%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522current-price%2522%253E%25E2%2582%25B95%252C499%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522previous-price%2522%253E%25E2%2582%25B95%252C990%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount-percentage%2522%253E8%2525%2520off%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-close%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
-              style="
+        </div>
+        <div class="code-snippet-display">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-outer-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-inner-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EPlay%2520Station%25205%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522current-price%2522%253E%25E2%2582%25B949%252C990%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522previous-price%2522%253E%25E2%2582%25B954%252C990%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount-percentage%2522%253E8%2525%2520off%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbr%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Experience%2520lightning-fast%2520loading%2520with%2520an%2520ultra-high-speed%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520SSD%252C%2520deeper%2520immersion%2520with%2520support%2520for%2520haptic%2520feedback%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520adaptive%2520triggers%2520and%25203D%2520Audio1%252C%2520and%2520an%2520all-new%2520generation%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520of%2520incredible%2520PlayStation%2520games.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-cart-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%253E%2520shopping_cart%2520%253C%252Fi%253E%2520Add%2520To%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-buy-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%253Eflash_on%2520%253C%252Fi%253EBuy%2520Now%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+                background-color: #fafafa;
                 border: 0;
                 transform: scale(1);
-                background-color: #fafafa;
                 overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
-          <!-- Card with Shadow -->
-          <h6>Example of Card with Shadow</h6>
-          <br />
-          <div class="elements-wrapper light-gray flex-center">
-            <div class="card-outer-container card-shadow">
-              <div class="card-inner-container">
-                <div class="card-image">
-                  <img src="/images/controller-black-1.jpg" alt="ps5" />
-                  <span class="card-label">New</span>
-                </div>
-                <div class="card-info flex-col">
-                  <span class="card-title">PS5™ Controller</span>
-                  <span class="card-rating"><i class="fas fa-star"></i> 5</span>
-                  <div class="price-details">
-                    <span class="current-price">₹5,499</span>
-                    <span class="previous-price">₹5,990 </span>
-                    <span class="discount-percentage">8% off </span>
-                    <button class="btn-close">
-                      <i class="material-icons"> close </i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="code-snippet-display">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card-outer-container%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-inner-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Fcontroller-black-1.jpg%2522%2520alt%253D%2522ps5%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-label%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-title%2522%253EPS5%25E2%2584%25A2%2520Controller%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-rating%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%25205%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522current-price%2522%253E%25E2%2582%25B95%252C499%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522previous-price%2522%253E%25E2%2582%25B95%252C990%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount-percentage%2522%253E8%2525%2520off%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-close%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
-              style="
-                border: 0;
-                transform: scale(1);
-                background-color: #fafafa;
-                overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
-          <!-- Card with Text Overlay -->
-          <h6>Example of Card with Text Overlay</h6>
-          <br />
-          <div class="elements-wrapper light-gray flex-center">
-            <div class="card-outer-container">
-              <div class="card-inner-container overlay-container">
-                <div class="card-image">
-                  <img src="/images/controller-black-1.jpg" alt="ps5" />
-                  <span class="card-label">New</span>
-                </div>
-                <div class="card-info flex-col">
-                  <span class="card-title">PS5™ Controller</span>
-                  <span class="card-rating"><i class="fas fa-star"></i> 5</span>
-                  <div class="price-details">
-                    <span class="current-price">₹5,499</span>
-                    <span class="previous-price">₹5,990 </span>
-                    <span class="discount-percentage">8% off </span>
-                    <button class="btn-wishlist">
-                      <i class="fas fa-heart"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <span class="overlay-text">Out of Stock</span>
-            </div>
-          </div>
-          <div class="code-snippet-display">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-outer-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-inner-container%2520overlay-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Fcontroller-black-1.jpg%2522%2520alt%253D%2522ps5%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-label%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-title%2522%253EPS5%25E2%2584%25A2%2520Controller%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-rating%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%25205%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522current-price%2522%253E%25E2%2582%25B95%252C499%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522previous-price%2522%253E%25E2%2582%25B95%252C990%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount-percentage%2522%253E8%2525%2520off%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-wishlist%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522overlay-text%2522%253EOut%2520of%2520Stock%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
-              style="
-                border: 0;
-                transform: scale(1);
-                background-color: #fafafa;
-                overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
-          <!-- vertical cards -->
-          <h6>Examples of Vertical Card</h6>
-          <br />
-          <div class="elements-wrapper light-gray flex-center">
-            <div class="card-outer-container">
-              <div class="card-inner-container vertical-card">
-                <div class="card-image">
-                  <img
-                    src="/images/playstation-5-console-edition.png"
-                    alt="ps5"
-                  />
+              " sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
 
-                  <span class="card-label">Bestseller</span>
-                </div>
-                <div class="card-info flex-col">
-                  <span class="card-title"
-                    >SONY PlayStation 5 825 GB with Astro'sPlayroom
-                    (White)</span
-                  >
-                  <span class="card-rating"><i class="fas fa-star"></i> 5</span>
-                  <div class="price-details">
-                    <span class="current-price">₹49,990</span>
-                    <span class="previous-price">₹54,990 </span>
-                    <span class="discount-percentage">8% off </span>
-
-                    <button class="btn-close">
-                      <i class="material-icons"> close </i>
-                    </button>
-                    <div class="card-btns">
-                      <button class="card-cart-btn">
-                        <i class="material-icons"> shopping_cart </i> Add To
-                        Cart
-                      </button>
-                      <button class="card-buy-btn">
-                        <i class="material-icons">flash_on </i>Buy Now
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="code-snippet-display">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-outer-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-inner-container%2520vertical-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Fplaystation-5-console-edition.png%2522%2520alt%253D%2522ps5%2522%2520%252F%253E%250A%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-label%2522%253EBestseller%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-title%2522%253ESONY%2520PlayStation%25205%2520825%2520GB%2520with%2520Astro%27sPlayroom%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%28White%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-rating%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%25205%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522current-price%2522%253E%25E2%2582%25B949%252C990%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522previous-price%2522%253E%25E2%2582%25B954%252C990%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount-percentage%2522%253E8%2525%2520off%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522previous-price%2522%253E%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount-percentage%2522%253E%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-close%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-cart-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%253E%2520shopping_cart%2520%253C%252Fi%253E%2520Add%2520To%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-buy-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%253Eflash_on%2520%253C%252Fi%253EBuy%2520Now%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-              style="
-                border: 0;
-                transform: scale(1);
-                background-color: #fafafa;
-                overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
-          <h6>Examples of Text only cards</h6>
-          <br />
-          <div class="elements-wrapper flex-center">
-            <div class="card-outer-container">
-              <div class="card-inner-container">
-                <div class="card-title">
-                  <h3>Play Station 5</h3>
-                </div>
-                <div class="card-info flex-col">
-                  <div class="price-details">
-                    <span class="current-price">₹49,990</span>
-                    <span class="previous-price">₹54,990 </span>
-                    <span class="discount-percentage">8% off </span>
-                    <br />
-                    <p class="card-description">
-                      Experience lightning-fast loading with an ultra-high-speed
-                      SSD, deeper immersion with support for haptic feedback,
-                      adaptive triggers and 3D Audio1, and an all-new generation
-                      of incredible PlayStation games.
-                    </p>
-                    <div class="card-btns">
-                      <button class="card-cart-btn">
-                        <i class="material-icons"> shopping_cart </i> Add To
-                        Cart
-                      </button>
-                      <button class="card-buy-btn">
-                        <i class="material-icons">flash_on </i>Buy Now
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="code-snippet-display">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-outer-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-inner-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EPlay%2520Station%25205%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522current-price%2522%253E%25E2%2582%25B949%252C990%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522previous-price%2522%253E%25E2%2582%25B954%252C990%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount-percentage%2522%253E8%2525%2520off%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbr%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Experience%2520lightning-fast%2520loading%2520with%2520an%2520ultra-high-speed%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520SSD%252C%2520deeper%2520immersion%2520with%2520support%2520for%2520haptic%2520feedback%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520adaptive%2520triggers%2520and%25203D%2520Audio1%252C%2520and%2520an%2520all-new%2520generation%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520of%2520incredible%2520PlayStation%2520games.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-cart-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%253E%2520shopping_cart%2520%253C%252Fi%253E%2520Add%2520To%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-buy-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%253Eflash_on%2520%253C%252Fi%253EBuy%2520Now%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-              style="
-                background-color: #fafafa;
-                border: 0;
-                transform: scale(1);
-                overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
-
-          <div class="page-nav">
-            <a class="prev-page" href="/Components/Button/button.html"
-              ><span class="material-icons"> keyboard_arrow_left </span
-              >Button</a
-            >
-            <a class="next-page" href="/Components/Images/images.html"
-              >Image<span class="material-icons">
-                keyboard_arrow_right
-              </span></a
-            >
-          </div>
+        <div class="page-nav">
+          <a class="prev-page" href="/Components/Button/button.html"><span class="material-icons"> keyboard_arrow_left
+            </span>Button</a>
+          <a class="next-page" href="/Components/Images/images.html">Image<span class="material-icons">
+              keyboard_arrow_right
+            </span></a>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
