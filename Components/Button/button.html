@@ -1,206 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Uday Kumar" />
-    <meta name="description" content="ReadyMade-UI is a UI Component Library" />
-    <!-- /************ google icons ****************/ -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/CSS/main.css" />
-    <!-- /****** font awesome ***************/ -->
-    <script
-      src="https://kit.fontawesome.com/285da7d76b.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>ReadyMade-UI | Button</title>
-  </head>
-  <body>
-    <div class="container">
-      <nav class="nav_bar">
-        <div class="nav_left">
-          <a href="/index.html">ReadyMade UI</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Uday Kumar" />
+  <meta name="description" content="ReadyMade-UI is a UI Component Library" />
+  <link rel="shortcut icon" href="/images/ReadyMade-comp-logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="/CSS/main.css" />
+  <title>ReadyMade-UI | Button</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="nav_bar">
+      <div class="nav_left">
+        <a href="/index.html">ReadyMade UI</a>
+      </div>
+      <ul class="nav_right">
+        <li class="nav_docs list-item-inline">
+          <a href="#">Docs</a>
+        </li>
+        <li class="nav-git list-item-inline">
+          <a href="https://github.com/dusariudaykumar/ReadyMade-UI">
+            <img class="git-icon" src="/images/GitHub-Mark-64px.png" alt="git" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="doc_container grid-30-70-layout">
+      <!-- side components list -->
+      <div class="sidebar_components">
+        <div class="sidebar">
+          <div class="list_heading">
+            <a href="/Components/Alert/alert.html">components</a>
+          </div>
+          <ul class="list_item list-non-bullet components">
+            <li>
+              <a href="/Components/Alert/alert.html">Alert</a>
+            </li>
+            <li>
+              <a href="/Components/Avatar/avatar.html">Avatar</a>
+            </li>
+            <li>
+              <a href="/Components/Badge/badge.html">Badge</a>
+            </li>
+            <li class="active">
+              <a href="/Components/Button/button.html">Button</a>
+            </li>
+            <li>
+              <a href="/Components/Card/card.html">Card</a>
+            </li>
+            <li>
+              <a href="/Components/Images/images.html">Images</a>
+            </li>
+            <li>
+              <a href="/Components/Input/input.html">Input</a>
+            </li>
+            <li>
+              <a href="/Components/TextUtilities/text-utilities.html">Text Utilities</a>
+            </li>
+            <li>
+              <a href="/Components/Ratings/rating.html">Rating</a>
+            </li>
+            <li>
+              <a href="/Components/Lists/lists.html">Lists</a>
+            </li>
+          </ul>
         </div>
-        <ul class="nav_right">
-          <li class="nav_docs list-item-inline">
-            <a href="#">Docs</a>
-          </li>
-          <li class="nav-git list-item-inline">
-            <a href="https://github.com/dusariudaykumar/ReadyMade-UI">
-              <img
-                class="git-icon"
-                src="/images/GitHub-Mark-64px.png"
-                alt="git"
-              />
-            </a>
-          </li>
-        </ul>
-      </nav>
+      </div>
+      <!-- component -->
 
-      <div class="doc_container grid-30-70-layout">
-        <!-- side components list -->
-        <div class="sidebar_components">
-          <div class="sidebar">
-            <div class="list_heading">
-              <a href="/Components/Alert/alert.html">components</a>
-            </div>
-            <ul class="list_item list-non-bullet components">
-              <li>
-                <a href="/Components/Alert/alert.html">Alert</a>
-              </li>
-              <li>
-                <a href="/Components/Avatar/avatar.html">Avatar</a>
-              </li>
-              <li>
-                <a href="/Components/Badge/badge.html">Badge</a>
-              </li>
-              <li class="active">
-                <a href="/Components/Button/button.html">Button</a>
-              </li>
-              <li>
-                <a href="/Components/Card/card.html">Card</a>
-              </li>
-              <li>
-                <a href="/Components/Images/images.html">Images</a>
-              </li>
-              <li>
-                <a href="/Components/Input/input.html">Input</a>
-              </li>
-              <li>
-                <a href="/Components/TextUtilities/text-utilities.html"
-                  >Text Utilities</a
-                >
-              </li>
-              <li>
-                <a href="/Components/Ratings/rating.html">Rating</a>
-              </li>
-              <li>
-                <a href="/Components/Lists/lists.html">Lists</a>
-              </li>
-            </ul>
-          </div>
+      <div class="component-content">
+        <h1 class="component_heading">Button</h1>
+        <br />
+        <p>
+          Buttons allow users to take actions, and make choices, with a single
+          tap.Buttons communicate actions that users can take.You may use a
+          button tag or button element, you need to add respective classes,
+          and you are good to go.
+        </p>
+        <br />
+        <br />
+        <h6>Example of Contained Buttons</h6>
+        <br />
+        <p>
+          Contained buttons are high-emphasis, distinguished by their use of
+          elevation and fill. They contain actions that are primary to your
+          app.
+        </p>
+        <div class="elements-wrapper">
+          <button class="btn">default</button>
+          <button class="btn btn-solid">Primary</button>
+          <button class="btn btn-outline">outline</button>
+          <button class="btn btn-icon">
+            <span><i class="fas fa-shopping-cart"></i></span>
+            Add to cart
+          </button>
+          <button class="btn btn-link"><a href="">Link button</a></button>
         </div>
-        <!-- component -->
+        <div class="code-snippet-display">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn%2522%253Edefault%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-solid%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%253Eoutline%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253E%253Ca%2520href%253D%2522%2522%253ELink%2520button%253C%252Fa%253E%253C%252Fbutton%253E"
+            style="
+                border: 0;
+                transform: scale(1);
+                background-color: #fafafa;
+                overflow: hidden;
+              " sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
 
-        <div class="component-content">
-          <h1 class="component_heading">Button</h1>
-          <br />
-          <p>
-            Buttons allow users to take actions, and make choices, with a single
-            tap.Buttons communicate actions that users can take.You may use a
-            button tag or button element, you need to add respective classes,
-            and you are good to go.
-          </p>
-          <br />
-          <br />
-          <h6>Example of Contained Buttons</h6>
-          <br />
-          <p>
-            Contained buttons are high-emphasis, distinguished by their use of
-            elevation and fill. They contain actions that are primary to your
-            app.
-          </p>
-          <div class="elements-wrapper">
-            <button class="btn">default</button>
-            <button class="btn btn-solid">Primary</button>
-            <button class="btn btn-outline">outline</button>
-            <button class="btn btn-icon">
-              <span><i class="fas fa-shopping-cart"></i></span>
-              Add to cart
-            </button>
-            <button class="btn btn-link"><a href="">Link button</a></button>
-          </div>
-          <div class="code-snippet-display">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn%2522%253Edefault%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-solid%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%253Eoutline%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253E%253Ca%2520href%253D%2522%2522%253ELink%2520button%253C%252Fa%253E%253C%252Fbutton%253E"
-              style="
+        <h6>Example of Disabled Contained Buttons</h6>
+        <br />
+        <p>
+          If you want to style disabled button add btn-disabled class and you
+          are good to go
+        </p>
+        <div class="elements-wrapper">
+          <button disabled class="btn-disabled">default</button>
+          <button disabled class="btn-disabled disabled-btn-solid">
+            Primary
+          </button>
+          <button disabled class="btn-disabled disabled-btn-outline">
+            outline
+          </button>
+          <button disabled class="btn-disabled disabled-btn-icon">
+            <span><i class="fas fa-shopping-cart"></i></span>
+            Add to cart
+          </button>
+          <button disabled class="btn disabled-btn-link">
+            <a href="">Link button</a>
+          </button>
+        </div>
+        <div class="code-snippet-display">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520disabled%2520class%253D%2522btn%2522%253Edefault%253C%252Fbutton%253E%250A%253Cbutton%2520disabled%2520class%253D%2522btn%2520disabled-btn-solid%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520disabled%2520class%253D%2522btn%2520disabled-btn-outline%2522%253Eoutline%253C%252Fbutton%253E%250A%253Cbutton%2520disabled%2520class%253D%2522btn%2520disabled-btn-icon%2522%253E%250A%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520Add%2520to%2520cart%250A%253C%252Fbutton%253E%250A%253Cbutton%2520disabled%2520class%253D%2522btn%2520disabled-btn-link%2522%253E%253Ca%2520href%253D%2522%2522%253ELink%2520button%253C%252Fa%253E%253C%252Fbutton%253E"
+            style="
                 border: 0;
                 transform: scale(1);
                 background-color: #fafafa;
                 overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
-
-          <h6>Example of Disabled Contained Buttons</h6>
-          <br />
-          <p>
-            If you want to style disabled button add btn-disabled class and you
-            are good to go
-          </p>
-          <div class="elements-wrapper">
-            <button disabled class="btn-disabled">default</button>
-            <button disabled class="btn-disabled disabled-btn-solid">
-              Primary
-            </button>
-            <button disabled class="btn-disabled disabled-btn-outline">
-              outline
-            </button>
-            <button disabled class="btn-disabled disabled-btn-icon">
-              <span><i class="fas fa-shopping-cart"></i></span>
-              Add to cart
-            </button>
-            <button disabled class="btn disabled-btn-link">
-              <a href="">Link button</a>
-            </button>
-          </div>
-          <div class="code-snippet-display">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520disabled%2520class%253D%2522btn%2522%253Edefault%253C%252Fbutton%253E%250A%253Cbutton%2520disabled%2520class%253D%2522btn%2520disabled-btn-solid%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520disabled%2520class%253D%2522btn%2520disabled-btn-outline%2522%253Eoutline%253C%252Fbutton%253E%250A%253Cbutton%2520disabled%2520class%253D%2522btn%2520disabled-btn-icon%2522%253E%250A%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520Add%2520to%2520cart%250A%253C%252Fbutton%253E%250A%253Cbutton%2520disabled%2520class%253D%2522btn%2520disabled-btn-link%2522%253E%253Ca%2520href%253D%2522%2522%253ELink%2520button%253C%252Fa%253E%253C%252Fbutton%253E"
-              style="
+              " sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <h6>Example of Floating action button And Toggle Button</h6>
+        <br />
+        <p>
+          A floating action button (FAB) represents the primary action of a
+          screen. <br />
+          Toggle buttons can be used to change the theme. For class and html,
+          check below code.
+        </p>
+        <div class="elements-wrapper">
+          <button class="btn-float">+</button>
+          <label class="btn-toggle">
+            <input class="toggle" type="checkbox" />
+            <span class="slider-round"></span>
+          </label>
+        </div>
+        <div class="code-snippet-display">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn-float%2522%253E%252B%253C%252Fbutton%253E%250A%2520%253Clabel%2520class%253D%2522btn-toggle%2522%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522toggle%2522%2520type%253D%2522checkbox%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522slider-round%2522%253E%253C%252Fspan%253E%250A%2520%253C%252Flabel%253E"
+            style="
                 border: 0;
                 transform: scale(1);
                 background-color: #fafafa;
                 overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
-          <h6>Example of Floating action button And Toggle Button</h6>
-          <br />
-          <p>
-            A floating action button (FAB) represents the primary action of a
-            screen. <br />
-            Toggle buttons can be used to change the theme. For class and html,
-            check below code.
-          </p>
-          <div class="elements-wrapper">
-            <button class="btn-float">+</button>
-            <label class="btn-toggle">
-              <input class="toggle" type="checkbox" />
-              <span class="slider-round"></span>
-            </label>
-          </div>
-          <div class="code-snippet-display">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn-float%2522%253E%252B%253C%252Fbutton%253E%250A%2520%253Clabel%2520class%253D%2522btn-toggle%2522%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522toggle%2522%2520type%253D%2522checkbox%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522slider-round%2522%253E%253C%252Fspan%253E%250A%2520%253C%252Flabel%253E"
-              style="
-                border: 0;
-                transform: scale(1);
-                background-color: #fafafa;
-                overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
-          <div class="page-nav">
-            <a class="prev-page" href="/Components/Badge/badge.html"
-              ><span class="material-icons"> keyboard_arrow_left </span>Badge</a
-            >
-            <a class="next-page" href="/Components/Card/card.html"
-              >Card<span class="material-icons"> keyboard_arrow_right </span></a
-            >
-          </div>
+              " sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <div class="page-nav">
+          <a class="prev-page" href="/Components/Badge/badge.html"><span class="material-icons"> keyboard_arrow_left
+            </span>Badge</a>
+          <a class="next-page" href="/Components/Card/card.html">Card<span class="material-icons"> keyboard_arrow_right
+            </span></a>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
