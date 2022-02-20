@@ -43,17 +43,14 @@
 }
 
 .action-alert-x {
-  font-weight: 500;
-  border: 1px solid transparent;
   width: 1.5rem;
   height: 1.5rem;
   margin: 0.75rem;
+  padding: 0.2rem;
   position: absolute;
   top: 0;
   right: 0;
   cursor: pointer;
-  outline: none;
-  font-family: "Montserrat", sans-serif;
 }
 .action-alert-x:hover {
   color: var(--danger-color);
@@ -76,4 +73,20 @@
 }
 .action-alert-btn:hover {
   color: var(--danger-color);
+}
+
+@media (max-width: 480px) {
+  .action-alert-success {
+    max-width: 20rem;
+  }
+  .action-alert-btn {
+    all: unset;
+    position: absolute;
+    right: 0.3rem;
+  }
+  .action-alert-x {
+    all: unset;
+    position: absolute;
+    right: 0.3rem;
+  }
 }
