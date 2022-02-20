@@ -1,9 +1,9 @@
-## Deep UI
+## ReadyMade-UI 
 
 ReadyMade-UI -  A CSS Component Library focused on developing resuable components.
 
-## Dem0
- gif
+## Demo
+Live link : https://readymade-ui.netlify.app/
 
 ## Quick start guide
 
@@ -47,7 +47,7 @@ Go to the project directory
 - [Rating](https://readymade-ui.netlify.app/components/ratings/rating)
 - [List](https://readymade-ui.netlify.app/components/lists/lists)
 - [Text Utilities](https://readymade-ui.netlify.app/components/textutilities/text-utilities)
-- [Navigation](https://deepui.netlify.app/docs.html#navigation)
+
 
 ## Tech Stack
 
