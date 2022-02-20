@@ -3,7 +3,7 @@
 ReadyMade-UI -  A CSS Component Library focused on developing resuable components.
 
 ## Demo
-Live link : https://readymade-ui.netlify.app/
+**Live link:** https://readymade-ui.netlify.app/
 
 ## Quick start guide
 
@@ -38,15 +38,49 @@ Go to the project directory
 ## Components
 
 - [Alert](https://readymade-ui.netlify.app/components/alert/alert)
+  * Simple Alert
+  * Alert With icon
+  * Alert with button
 - [Avatar](https://readymade-ui.netlify.app/components/avatar/avatar)
+  * Image Avatar
+  * Text Avatar
 - [Badge](https://readymade-ui.netlify.app/components/badge/badge)
+  * Badge on avatar
+  * Badge On Icon
 - [Button](https://readymade-ui.netlify.app/components/button/button)
+  * Default Button
+  * Solid Button
+  * Outlined button
+  * Icon button
+  * Link button
+  * Floating action button
+  * Toggle Button
 - [Card](https://readymade-ui.netlify.app/components/card/card)
+  * Verical Card
+  *  Horizantal Card
+  *  Card with badge
+  * Card with dismiss
+  * Card with shadow
+  * Card with text overlay
+  * Text only card
 - [Image](https://readymade-ui.netlify.app/components/images/images)
+  * Responsive Image
+  * Round Image
 - [Input](https://readymade-ui.netlify.app/components/input/input)
+  * Simple Text Input Field
+  * inputs with validation and error styles
 - [Rating](https://readymade-ui.netlify.app/components/ratings/rating)
+  * rating-star-icon
+  * Read-only rating-badge
+  * Read-only rating-badge-solid
 - [List](https://readymade-ui.netlify.app/components/lists/lists)
+  * Unordered List with bullets
+  * Simple Lists with no bullets
+  *  Stacked List
 - [Text Utilities](https://readymade-ui.netlify.app/components/textutilities/text-utilities)
+  * Headings
+  * Paragraph text
+  * Text utilities
 
 
 ## Tech Stack
