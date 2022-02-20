@@ -12,7 +12,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 2.5rem 1rem;
+  padding: 0.4rem 1rem;
   align-items: center;
   flex-wrap: wrap;
   box-shadow: 0 3px 5px -3px var(--primary-color-hover);
@@ -34,6 +34,7 @@
 .nav_right a:hover {
   color: var(--primary-color-hover);
 }
+
 .nav_right {
   display: flex;
 }
@@ -49,15 +50,21 @@
     all: unset;
     width: 100vw;
     height: 10vh;
+    padding: 1rem;
     display: inline-flex;
     box-shadow: 0 3px 5px -3px var(--primary-color-hover);
   }
   .container {
     width: 100vw;
   }
-
   .nav_right .nav_docs {
     display: none;
+  }
+  .nav_left a {
+    font-size: 2rem;
+  }
+  .nav-git {
+    align-self: center;
   }
 }
 
