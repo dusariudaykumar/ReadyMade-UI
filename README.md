@@ -3,8 +3,11 @@
 ReadyMade-UI -  A CSS Component Library focused on developing resuable components.
 
 ## Demo
-**Live link:** https://readymade-ui.netlify.app/
 
+![ReadyMade-UI-3](https://user-images.githubusercontent.com/78147748/154959097-311f0fe2-cf7a-4e90-a045-d52a4f6f7814.gif)
+
+## Live Link:
+ https://readymade-ui.netlify.app/
 ## Quick start guide
 
 To Use components from this UI use following methods:
