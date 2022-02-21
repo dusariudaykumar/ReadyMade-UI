@@ -1,0 +1,95 @@
+.navigation-bar {
+  align-items: center;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 2px solid var(--grey);
+}
+.hamberger-icon {
+  margin: 1rem;
+}
+.hamberger-icon i {
+  font-size: 2.3rem;
+}
+.logo {
+  margin: 0 1rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+}
+.navigation-right-icons {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+}
+.nav-cart-icon,
+.nav-wishlist-icon,
+.nav-person-icon {
+  margin: 1rem;
+}
+
+.nav-cart-icon i,
+.nav-wishlist-icon i,
+.nav-person-icon i {
+  font-size: 2rem;
+}
+
+.navigation-desktop {
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 5rem;
+}
+.search-container {
+  border: 1px solid var(--black);
+  border-radius: 0.2rem;
+}
+
+.search-icon {
+  border: none;
+  background-color: transparent;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+.search-field {
+  outline: none;
+  border: none;
+  padding: 0.2rem;
+  /* width: 18rem; */
+}
+@media only screen and (max-width: 500px) {
+  .navigation-right-icons {
+    display: none;
+  }
+  .search-container {
+    order: 2;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .navigation-desktop {
+    margin: 0.8rem 1rem;
+  }
+  #basic-nav-heading {
+    margin: 0 0 0.4rem 0;
+  }
+  .basic-right-icons {
+    all: unset;
+  }
+  .search-container {
+    order: 2;
+    margin: 0.5rem;
+    width: 100%;
+    position: relative;
+  }
+  .search-field {
+    width: 95%;
+  }
+  .search-icon {
+    position: absolute;
+    right: 0;
+  }
+  .nav-cart-icon,
+  .nav-wishlist-icon,
+  .nav-person-icon {
+    margin: 0.5rem;
+  }
+}
