@@ -179,9 +179,10 @@ This project is used by the following web apps:
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/UdayKumarDusari)
 
 <hr/>
+
 ## Authors
 
-- [Uday Kumar](https://github.com/dusariudaykumar)
+[Uday Kumar](https://github.com/dusariudaykumar)
 
 
 
