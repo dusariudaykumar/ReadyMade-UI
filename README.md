@@ -91,7 +91,9 @@ Go to the project directory
   * Headings
   * Paragraph text
   * Text utilities
-  
+- [Navigation](https://readymade-ui.netlify.app/components/navigation/navigation)
+  * Navigation with Icons
+  * Basic Navigation
 <hr/>
 
 ## [Alert](https://readymade-ui.netlify.app/components/alert/alert)
@@ -151,6 +153,12 @@ The List is a very versatile and common way to display items. CompUI has two typ
 ## [Text Utilities](https://readymade-ui.netlify.app/components/textutilities/text-utilities)
 
 Text utilites is the art or technique of arranging type to make written language legible, readable and appealing when displayed.
+
+<hr/>
+
+## [Navigation](https://readymade-ui.netlify.app/components/navigation/navigation)
+
+Navigation component is used as header in top portion of your application. The buttons can be used for redirecting you to differnt pages.Use the code below for a responsive navigation bar.
 
 <hr/>
 
