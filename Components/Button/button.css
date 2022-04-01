@@ -46,7 +46,12 @@
   background-color: var(--light-grey);
   border: radius 0.4rem;
 }
-
+.disabled-btn {
+  cursor: not-allowed;
+}
+.btn-disabled {
+  cursor: not-allowed;
+}
 .disabled-btn-solid,
 .disabled-btn-icon {
   background-color: var(--primary-color-hover);
