@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Uday Kumar" />
+    <meta name="description" content="ReadyMade-UI is a UI Component Library" />
+    <link
+      rel="shortcut icon"
+      href="/images/ReadyMade-comp-logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/CSS/main.css" />
+    <title>ReadyMade-UI | Grid</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="nav_bar">
+        <div class="nav_left">
+          <a href="/index.html">ReadyMade UI</a>
+        </div>
+        <ul class="nav_right">
+          <li class="nav_docs list-item-inline">
+            <a href="#">Docs</a>
+          </li>
+          <li class="nav-git list-item-inline">
+            <a href="https://github.com/dusariudaykumar/ReadyMade-UI">
+              <img
+                class="git-icon"
+                src="/images/GitHub-Mark-64px.png"
+                alt="git"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="doc_container grid-30-70-layout">
+        <!-- side components list -->
+        <div class="sidebar_components">
+          <div class="sidebar">
+            <div class="list_heading">
+              <a href="/Components/Alert/alert.html">components</a>
+            </div>
+            <ul class="list_item list-non-bullet components">
+              <li>
+                <a href="/Components/Alert/alert.html">Alert</a>
+              </li>
+              <li>
+                <a href="/Components/Avatar/avatar.html">Avatar</a>
+              </li>
+              <li>
+                <a href="/Components/Badge/badge.html">Badge</a>
+              </li>
+              <li>
+                <a href="/Components/Button/button.html">Button</a>
+              </li>
+              <li>
+                <a href="/Components/Card/card.html">Card</a>
+              </li>
+              <li>
+                <a href="/Components/Images/images.html">Images</a>
+              </li>
+              <li>
+                <a href="/Components/Input/input.html">Input</a>
+              </li>
+              <li>
+                <a href="/Components/TextUtilities/text-utilities.html"
+                  >Text Utilities</a
+                >
+              </li>
+              <li>
+                <a href="/Components/Ratings/rating.html">Rating</a>
+              </li>
+              <li>
+                <a href="/Components/Lists/lists.html">Lists</a>
+              </li>
+              <li>
+                <a href="/Components/Navigation/navigation.html">Navigation</a>
+              </li>
+              <li>
+                <a href="/Components//Grid/grid.html">Grid</a>
+              </li>
+              <li class="active">
+                <a href="/Components//Grid/grid.html">Toast</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- component -->
+
+        <div class="component-content">
+          <h1 class="component_heading mb-1">Toast</h1>
+
+          <p>
+            Push notifications to your visitors with a toast, a lightweight and
+            easily customizable alert message.
+          </p>
+          <h6 class="mtb-1">Simple Toast</h6>
+          <p>
+            A simple toast consists of a toast text and accompanying action
+            buttons such as a text or icon button.
+          </p>
+          <div class="elements-wrapper">
+            <div class="toast flex">
+              <p class="toast-text">Message sent !</p>
+              <div>
+                <button class="toast-action-btn">
+                  <span class="material-icons-outlined"> close </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <button id="demo-toast" class="demo-btn btn">Live Demo</button>
+          </div>
+          <div class="toast flex toast-sample" id="tostExample">
+            <p class="toast-text">Message sent !</p>
+            <div>
+              <button class="toast-action-btn toast-close">
+                <span class="material-icons-outlined"> close </span>
+              </button>
+            </div>
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522toast%2520flex%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522toast-text%2522%253EMessage%2520sent%2520%21%253C%252Fp%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522toast-action-btn%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%2520close%2520%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                background-color: #fafafa;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <div class="page-nav">
+            <a class="prev-page" href="/Components/Navigation/navigation.html">
+              <span class="material-icons"> keyboard_arrow_left </span>
+              Navigation
+            </a>
+            <a class="next-page" href="/Components/Toast/toast.html">
+              Toast <span class="material-icons"> keyboard_arrow_right </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./toast.js"></script>
+  </body>
+</html>
