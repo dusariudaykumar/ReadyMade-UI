@@ -85,6 +85,28 @@ p {
   cursor: pointer;
   padding: 0;
 }
+/** margin utilities **/
+.m-1 {
+  margin: 1rem;
+}
+.m-2 {
+  margin: 2rem;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.mtb-1 {
+  margin: 1rem 0;
+}
 
 a {
   text-decoration: none;
@@ -98,6 +120,13 @@ a {
 .list-item-inline {
   display: inline;
   padding: 0rem 0.5rem;
+}
+
+/** button reset **/
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 /********* high-light**********/
