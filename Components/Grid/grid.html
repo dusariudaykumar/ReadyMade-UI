@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Uday Kumar" />
+    <meta name="description" content="ReadyMade-UI is a UI Component Library" />
+    <link
+      rel="shortcut icon"
+      href="/images/ReadyMade-comp-logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/CSS/main.css" />
+    <title>ReadyMade-UI | Grid</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="nav_bar">
+        <div class="nav_left">
+          <a href="/index.html">ReadyMade UI</a>
+        </div>
+        <ul class="nav_right">
+          <li class="nav_docs list-item-inline">
+            <a href="#">Docs</a>
+          </li>
+          <li class="nav-git list-item-inline">
+            <a href="https://github.com/dusariudaykumar/ReadyMade-UI">
+              <img
+                class="git-icon"
+                src="/images/GitHub-Mark-64px.png"
+                alt="git"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="doc_container grid-30-70-layout">
+        <!-- side components list -->
+        <div class="sidebar_components">
+          <div class="sidebar">
+            <div class="list_heading">
+              <a href="/Components/Alert/alert.html">components</a>
+            </div>
+            <ul class="list_item list-non-bullet components">
+              <li>
+                <a href="/Components/Alert/alert.html">Alert</a>
+              </li>
+              <li>
+                <a href="/Components/Avatar/avatar.html">Avatar</a>
+              </li>
+              <li>
+                <a href="/Components/Badge/badge.html">Badge</a>
+              </li>
+              <li>
+                <a href="/Components/Button/button.html">Button</a>
+              </li>
+              <li>
+                <a href="/Components/Card/card.html">Card</a>
+              </li>
+              <li>
+                <a href="/Components/Images/images.html">Images</a>
+              </li>
+              <li>
+                <a href="/Components/Input/input.html">Input</a>
+              </li>
+              <li>
+                <a href="/Components/TextUtilities/text-utilities.html"
+                  >Text Utilities</a
+                >
+              </li>
+              <li>
+                <a href="/Components/Ratings/rating.html">Rating</a>
+              </li>
+              <li>
+                <a href="/Components/Lists/lists.html">Lists</a>
+              </li>
+              <li>
+                <a href="/Components/Navigation/navigation.html">Navigation</a>
+              </li>
+              <li class="active">
+                <a href="/Components//Grid/grid.html">Grid</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- component -->
+
+        <div class="component-content">
+          <h1 class="component_heading mb-1">Grid</h1>
+
+          <p>
+            CSS Grid Layout is a CSS layout method designed for the
+            two-dimensional layout of items on a webpage
+          </p>
+          <h6 class="mtb-1">Grid with 2 Columns</h6>
+          <p>This is a grid layout with 2 columns.</p>
+          <div class="elements-wrapper">
+            <div class="grid grid-col-2">
+              <div class="grid-item">One</div>
+              <div class="grid-item">Two</div>
+            </div>
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid%2520grid-col-2%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253EOne%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253ETwo%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                background-color: #fafafa;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <h6 class="mtb-1">Grid with 3 Columns</h6>
+          <p>This simple grid consists of 3 columns .</p>
+          <div class="elements-wrapper">
+            <div class="grid grid-col-3">
+              <div class="grid-item">One</div>
+              <div class="grid-item">Two</div>
+              <div class="grid-item">Three</div>
+            </div>
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522grid%2520grid-col-3%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253EOne%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253ETwo%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253EThree%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+              style="
+                background-color: #fafafa;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <div class="page-nav">
+            <a class="prev-page" href="/Components/Navigation/navigation.html">
+              <span class="material-icons"> keyboard_arrow_left </span>
+              Navigation
+            </a>
+            <a class="next-page" href="/Components/Toast/toast.html">
+              Toast <span class="material-icons"> keyboard_arrow_right </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
