@@ -1,0 +1,17 @@
+.slider-container {
+  gap: 10px;
+  align-items: center;
+}
+.slider-range {
+  appearance: none;
+  background-color: var(--silder-color);
+  height: 6px;
+  border-radius: 8px;
+}
+.slider-range::-webkit-slider-thumb {
+  appearance: none;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
