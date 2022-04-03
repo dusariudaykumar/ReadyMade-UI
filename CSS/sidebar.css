@@ -1,5 +1,5 @@
 .sidebar_components {
-  margin-top: 1rem;
+  margin: 2rem 0;
   max-height: 100vh;
   overflow: auto;
   grid-area: "aside";
@@ -27,8 +27,8 @@
   padding: 1rem;
   font-size: 1.2rem;
   font-weight: (--font-bold);
-
   border-radius: 0.3rem;
+  margin-right: 0.4rem;
 }
 .components li :hover {
   background-color: var(--light-grey);
