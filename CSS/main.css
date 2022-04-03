@@ -22,6 +22,7 @@
 @import url("/Components/Navigation/navigation.css");
 @import url("../Components/Grid/grid.css");
 @import url("../Components/Toast/toast.css");
+@import url("../Components/Modal/model.css");
 
 /************* Body of project **********/
 *,

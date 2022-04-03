@@ -195,10 +195,10 @@ a {
 }
 
 /*************** scroll bar ************/
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 0;
   height: 0;
-}
+} */
 
 /********flex ***********/
 .flex {
