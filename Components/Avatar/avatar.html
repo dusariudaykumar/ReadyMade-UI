@@ -1,151 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Uday Kumar" />
+    <meta name="description" content="ReadyMade-UI is a UI Component Library" />
+    <link
+      rel="shortcut icon"
+      href="/images/ReadyMade-comp-logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="avatar.css" />
+    <title>ReadyMade-UI | Avatar</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Uday Kumar" />
-  <meta name="description" content="ReadyMade-UI is a UI Component Library" />
-  <link rel="shortcut icon" href="/images/ReadyMade-comp-logo.png" type="image/x-icon" />
-  <link rel="stylesheet" href="avatar.css" />
-  <title>ReadyMade-UI | Avatar</title>
-</head>
+  <body>
+    <div class="container">
+      <nav class="nav_bar">
+        <div class="nav_left">
+          <a href="#">ReadyMade UI</a>
+        </div>
+        <ul class="nav_right">
+          <li class="nav_docs list-item-inline">
+            <a href="#">Docs</a>
+          </li>
+          <li class="nav-git list-item-inline">
+            <a href="https://github.com/dusariudaykumar/ReadyMade-UI">
+              <img
+                class="git-icon"
+                src="/images/GitHub-Mark-64px.png"
+                alt="git"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
 
-<body>
-  <div class="container">
-    <nav class="nav_bar">
-      <div class="nav_left">
-        <a href="#">ReadyMade UI</a>
-      </div>
-      <ul class="nav_right">
-        <li class="nav_docs list-item-inline">
-          <a href="#">Docs</a>
-        </li>
-        <li class="nav-git list-item-inline">
-          <a href="https://github.com/dusariudaykumar/ReadyMade-UI">
-            <img class="git-icon" src="/images/GitHub-Mark-64px.png" alt="git" />
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-    <div class="doc_container grid-30-70-layout">
-      <!-- side components list -->
-      <div class="sidebar_components">
-        <div class="sidebar">
-          <div class="list_heading">
-            <a href="/Components/Alert/alert.html">components</a>
+      <div class="doc_container grid-30-70-layout">
+        <!-- side components list -->
+        <div class="sidebar_components">
+          <div class="sidebar">
+            <div class="list_heading">
+              <a href="/Components/Alert/alert.html">components</a>
+            </div>
+            <ul class="list_item list-non-bullet components">
+              <li>
+                <a href="/Components/Alert/alert.html">Alert</a>
+              </li>
+              <li class="active">
+                <a href="/Components/Avatar/avatar.html">Avatar</a>
+              </li>
+              <li>
+                <a href="/Components/Badge/badge.html">Badge</a>
+              </li>
+              <li>
+                <a href="/Components/Button/button.html">Button</a>
+              </li>
+              <li>
+                <a href="/Components/Card/card.html">Card</a>
+              </li>
+              <li>
+                <a href="/Components/Images/images.html">Images</a>
+              </li>
+              <li>
+                <a href="/Components/Input/input.html">Input</a>
+              </li>
+              <li>
+                <a href="/Components/TextUtilities/text-utilities.html"
+                  >Text Utilities</a
+                >
+              </li>
+              <li>
+                <a href="/Components/Ratings/rating.html">Rating</a>
+              </li>
+              <li>
+                <a href="/Components/Lists/lists.html">Lists</a>
+              </li>
+              <li>
+                <a href="/Components/Navigation/navigation.html">Navigation</a>
+              </li>
+              <li>
+                <a href="/Components//Grid/grid.html">Grid</a>
+              </li>
+              <li>
+                <a href="/Components//Toast/toast.html">Toast</a>
+              </li>
+            </ul>
           </div>
-          <ul class="list_item list-non-bullet components">
-            <li>
-              <a href="/Components/Alert/alert.html">Alert</a>
-            </li>
-            <li class="active">
-              <a href="/Components/Avatar/avatar.html">Avatar</a>
-            </li>
-            <li>
-              <a href="/Components/Badge/badge.html">Badge</a>
-            </li>
-            <li>
-              <a href="/Components/Button/button.html">Button</a>
-            </li>
-            <li>
-              <a href="/Components/Card/card.html">Card</a>
-            </li>
-            <li>
-              <a href="/Components/Images/images.html">Images</a>
-            </li>
-            <li>
-              <a href="/Components/Input/input.html">Input</a>
-            </li>
-            <li>
-              <a href="/Components/TextUtilities/text-utilities.html">Text Utilities</a>
-            </li>
-            <li>
-              <a href="/Components/Ratings/rating.html">Rating</a>
-            </li>
-            <li>
-              <a href="/Components/Lists/lists.html">Lists</a>
-            </li>
-            <li>
-              <a href="/Components/Navigation/navigation.html">Navigation</a>
-            </li>
-          </ul>
         </div>
-      </div>
 
-      <div class="component-content">
-        <h1 class="component_heading">Avatar</h1>
-        <br />
-        <p>
-          The Avatar component is used to represent a user, and displays the
-          profile picture, initials .
-        </p>
-        <br />
-        <br />
-        <h6>Image Avatar:</h6>
-        <br />
-        <p>
-          Avatar is available in 4 different sizes. You can use image in
-          Avatar.
-          <br>
-          <br>
-          To use avatars of different sizes, add any one of the size classs along with the base class- avatar-xs,
-          avatar-xs-size, avatar-sm-size, avatar-md-size, and avatar-lg-size.
-          By default a medium sized, circle avatar is generated.
-        </p>
-        <div class="elements-wrapper">
-          <img class="avatar-lg-size avatar-circle" src="https://i.pravatar.cc/150?img=12" alt="avatar" />
-          <img class="avatar-md-size avatar-circle" src="https://i.pravatar.cc/150?img=12" alt="avatar" />
-          <img class="avatar-sm-size avatar-circle" src="https://i.pravatar.cc/150?img=12" alt="avatar" />
-          <img class="avatar-xs-size avatar-circle" src="https://i.pravatar.cc/150?img=12" alt="avatar" />
-        </div>
-        <div class="code-snippet-display">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar-lg-size%2520avatar-circle%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D12%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar-md-size%2520avatar-circle%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D12%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar-sm-size%2520avatar-circle%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D12%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar-xs-size%2520avatar-circle%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D12%2522%2520alt%253D%2522avatar%2522%2520%252F%253E"
-            style="
+        <div class="component-content">
+          <h1 class="component_heading">Avatar</h1>
+          <br />
+          <p>
+            The Avatar component is used to represent a user, and displays the
+            profile picture, initials .
+          </p>
+          <br />
+          <br />
+          <h6>Image Avatar:</h6>
+          <br />
+          <p>
+            Avatar is available in 4 different sizes. You can use image in
+            Avatar.
+            <br />
+            <br />
+            To use avatars of different sizes, add any one of the size classs
+            along with the base class- avatar-xs, avatar-xs-size,
+            avatar-sm-size, avatar-md-size, and avatar-lg-size. By default a
+            medium sized, circle avatar is generated.
+          </p>
+          <div class="elements-wrapper">
+            <img
+              class="avatar-lg-size avatar-circle"
+              src="https://i.pravatar.cc/150?img=12"
+              alt="avatar"
+            />
+            <img
+              class="avatar-md-size avatar-circle"
+              src="https://i.pravatar.cc/150?img=12"
+              alt="avatar"
+            />
+            <img
+              class="avatar-sm-size avatar-circle"
+              src="https://i.pravatar.cc/150?img=12"
+              alt="avatar"
+            />
+            <img
+              class="avatar-xs-size avatar-circle"
+              src="https://i.pravatar.cc/150?img=12"
+              alt="avatar"
+            />
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar-lg-size%2520avatar-circle%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D12%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar-md-size%2520avatar-circle%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D12%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar-sm-size%2520avatar-circle%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D12%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar-xs-size%2520avatar-circle%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D12%2522%2520alt%253D%2522avatar%2522%2520%252F%253E"
+              style="
                 background-color: #fafafa;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
-              " sandbox="allow-scripts allow-same-origin">
-          </iframe>
-        </div>
-        <h6>Letter avatars</h6>
-        <br />
-        <p>
-          The Letter avatar available in 3 different sizes. To get a text avatar use the base class avatar-text along
-          with the base class
-        </p>
-        <div class="elements-wrapper">
-          <div class="avatar-text avatar-lg-size avatar-circle">UG</div>
-          <div class="avatar-text avatar-md-size avatar-circle">UG</div>
-          <div class="avatar-text avatar-sm-size avatar-circle">UG</div>
-        </div>
-        <div class="code-snippet-display">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-text%2520avatar-lg-size%2520avatar-circle%2522%253EUG%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar-text%2520avatar-md-size%2520avatar-circle%2522%253EUG%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar-text%2520avatar-sm-size%2520avatar-circle%2522%253EUG%253C%252Fdiv%253E"
-            style="
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h6>Letter avatars</h6>
+          <br />
+          <p>
+            The Letter avatar available in 3 different sizes. To get a text
+            avatar use the base class avatar-text along with the base class
+          </p>
+          <div class="elements-wrapper">
+            <div class="avatar-text avatar-lg-size avatar-circle">UG</div>
+            <div class="avatar-text avatar-md-size avatar-circle">UG</div>
+            <div class="avatar-text avatar-sm-size avatar-circle">UG</div>
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-text%2520avatar-lg-size%2520avatar-circle%2522%253EUG%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar-text%2520avatar-md-size%2520avatar-circle%2522%253EUG%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar-text%2520avatar-sm-size%2520avatar-circle%2522%253EUG%253C%252Fdiv%253E"
+              style="
                 border: 0;
                 transform: scale(1);
                 background-color: #fafafa;
                 overflow: hidden;
-              " sandbox="allow-scripts allow-same-origin">
-          </iframe>
-        </div>
-        <div class="page-nav">
-          <a class="prev-page" href="/Components/Alert/alert.html"><span class="material-icons"> keyboard_arrow_left
-            </span>Alert</a>
-          <a class="next-page" href="/Components/Badge/badge.html">Badge<span class="material-icons">
-              keyboard_arrow_right
-            </span></a>
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="page-nav">
+            <a class="prev-page" href="/Components/Alert/alert.html"
+              ><span class="material-icons"> keyboard_arrow_left </span>Alert</a
+            >
+            <a class="next-page" href="/Components/Badge/badge.html"
+              >Badge<span class="material-icons">
+                keyboard_arrow_right
+              </span></a
+            >
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
 
 <!--  -->

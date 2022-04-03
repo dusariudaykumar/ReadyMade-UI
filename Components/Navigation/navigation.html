@@ -1,196 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Uday Kumar" />
     <meta name="description" content="ReadyMade-UI is a UI Component Library" />
-    <link rel="shortcut icon" href="/images/ReadyMade-comp-logo.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="/images/ReadyMade-comp-logo.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="/CSS/main.css" />
     <title>ReadyMade-UI | Lists</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <nav class="nav_bar">
-            <div class="nav_left">
-                <a href="/index.html">ReadyMade UI</a>
-            </div>
-            <ul class="nav_right">
-                <li class="nav_docs list-item-inline">
-                    <a href="#">Docs</a>
-                </li>
-                <li class="nav-git list-item-inline">
-                    <a href="https://github.com/dusariudaykumar/ReadyMade-UI">
-                        <img class="git-icon" src="/images/GitHub-Mark-64px.png" alt="git" />
-                    </a>
-                </li>
-            </ul>
-        </nav>
-
-        <div class="doc_container grid-30-70-layout">
-            <!-- side components list -->
-            <div class="sidebar_components">
-                <div class="sidebar">
-                    <div class="list_heading">
-                        <a href="/Components/Alert/alert.html">components</a>
-                    </div>
-                    <ul class="list_item list-non-bullet components">
-                        <li>
-                            <a href="/Components/Alert/alert.html">Alert</a>
-                        </li>
-                        <li>
-                            <a href="/Components/Avatar/avatar.html">Avatar</a>
-                        </li>
-                        <li>
-                            <a href="/Components/Badge/badge.html">Badge</a>
-                        </li>
-                        <li>
-                            <a href="/Components/Button/button.html">Button</a>
-                        </li>
-                        <li>
-                            <a href="/Components/Card/card.html">Card</a>
-                        </li>
-                        <li>
-                            <a href="/Components/Images/images.html">Images</a>
-                        </li>
-                        <li>
-                            <a href="/Components/Input/input.html">Input</a>
-                        </li>
-                        <li>
-                            <a href="/Components/TextUtilities/text-utilities.html">Text Utilities</a>
-                        </li>
-                        <li>
-                            <a href="/Components/Ratings/rating.html">Rating</a>
-                        </li>
-                        <li>
-                            <a href="/Components/Lists/lists.html">Lists</a>
-                        </li>
-                        <li class="active">
-                            <a href="/Components/Navigation/navigation.html">Navigation</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- component -->
-
-            <div class="component-content">
-                <h1 class="component_heading">Navigation</h1>
-                <br />
-                <p>
-                    Navigation component is used as header in top portion of your application. The buttons can be used
-                    for redirecting you to differnt pages.Use the code below for a responsive navigation bar.
-                </p>
-                <br />
-                <br />
-                <!-- //Navigation with Icons -->
-                <h6>Example of Navigation with Icons </h6>
-                <br />
-                <p>A basic example of the navbar with the most common elements like link,brand-logo, icons </p>
-                <br />
-                <div class="elements-wrapper">
-                    <div class="standard-header">
-                        <nav class="navigation-bar flex">
-                            <a href="#" class="hamberger-icon">
-                                <i class="material-icons-outlined">
-                                    menu
-                                </i>
-                            </a>
-
-                            <h4 class="logo brand-name ">
-                                <a href="#">
-                                    Logo
-                                </a>
-                            </h4>
-
-                            <div class="navigation-right-icons">
-
-                                <a href="#" class="nav-wishlist-icon">
-                                    <i class="material-icons-outlined">
-                                        favorite_border
-                                    </i>
-                                </a>
-                                <a href="#" class="nav-cart-icon">
-                                    <i class="material-icons-outlined">
-                                        shopping_cart
-                                    </i>
-                                </a>
-                                <a href="#" class="nav-person-icon">
-                                    <i class="material-icons">
-                                        person
-                                    </i>
-                                </a>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-                <div class="code-snippet-display">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navigation-bar%2520flex%2522%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522hamberger-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520menu%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navigation-desktop%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522logo%2520brand-name%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Logo%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh4%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navigation-right-icons%2522%253E%250A%25C2%25A0%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-wishlist-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520favorite_border%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-cart-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520shopping_cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-person-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520person%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
-                        style="border:0; transform: scale(1); overflow:hidden;
-                            background-color: #fafafa;" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-
-                <!-- Basic navigation -->
-                <h6>Examples of Basic Navigation</h6>
-                <br />
-                <p>The basic navigation consists of a brand name or logo, a search bar, links.</p>
-                <br />
-                <div class="elements-wrapper">
-                    <div class="basic-header">
-                        <nav class="navigation-bar flex">
-                            <div class="navigation-desktop flex">
-                                <h4 class="logo brand-name" id="basic-nav-heading">
-                                    <a href="#">
-                                        Logo
-                                    </a>
-                                </h4>
-                                <form class="search-container">
-                                    <input type="search" placeholder="search.." class="search-field">
-                                    <button type="submit" class="search-icon">
-                                        <i class="fas fa-search"></i>
-                                    </button>
-                                </form>
-                                <div class="basic-right-icons">
-                                    <a href="#" class="nav-wishlist-icon">
-                                        <i class="material-icons-outlined">
-                                            favorite_border
-                                        </i>
-                                    </a>
-                                    <a href="#" class="nav-cart-icon">
-                                        <i class="material-icons-outlined">
-                                            shopping_cart
-                                        </i>
-                                    </a>
-                                    <a href="#" class="nav-person-icon">
-                                        <i class="material-icons">
-                                            person
-                                        </i>
-                                    </a>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-                <div class="code-snippet-display">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navigation-bar%2520flex%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navigation-desktop%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522logo%2520brand-name%2522%2520id%253D%2522basic-nav-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Logo%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cform%2520class%253D%2522search-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522search%2522%2520placeholder%253D%2522search..%2522%2520class%253D%2522search-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522submit%2522%2520class%253D%2522search-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-search%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522basic-right-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-wishlist-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520favorite_border%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-cart-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520shopping_cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-person-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520person%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
-                        style="background-color: #fafafa; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <div class="page-nav">
-                    <a class="prev-page" href="/Components/Lists/lists.html"><span class="material-icons">
-                            keyboard_arrow_left </span>Lists</a>
-                    <a class="next-page" href="/index.html">Home<span class="material-icons"> keyboard_arrow_right
-                        </span></a>
-                </div>
-            </div>
+      <nav class="nav_bar">
+        <div class="nav_left">
+          <a href="/index.html">ReadyMade UI</a>
         </div>
-    </div>
-</body>
+        <ul class="nav_right">
+          <li class="nav_docs list-item-inline">
+            <a href="#">Docs</a>
+          </li>
+          <li class="nav-git list-item-inline">
+            <a href="https://github.com/dusariudaykumar/ReadyMade-UI">
+              <img
+                class="git-icon"
+                src="/images/GitHub-Mark-64px.png"
+                alt="git"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
 
+      <div class="doc_container grid-30-70-layout">
+        <!-- side components list -->
+        <div class="sidebar_components">
+          <div class="sidebar">
+            <div class="list_heading">
+              <a href="/Components/Alert/alert.html">components</a>
+            </div>
+            <ul class="list_item list-non-bullet components">
+              <li>
+                <a href="/Components/Alert/alert.html">Alert</a>
+              </li>
+              <li>
+                <a href="/Components/Avatar/avatar.html">Avatar</a>
+              </li>
+              <li>
+                <a href="/Components/Badge/badge.html">Badge</a>
+              </li>
+              <li>
+                <a href="/Components/Button/button.html">Button</a>
+              </li>
+              <li>
+                <a href="/Components/Card/card.html">Card</a>
+              </li>
+              <li>
+                <a href="/Components/Images/images.html">Images</a>
+              </li>
+              <li>
+                <a href="/Components/Input/input.html">Input</a>
+              </li>
+              <li>
+                <a href="/Components/TextUtilities/text-utilities.html"
+                  >Text Utilities</a
+                >
+              </li>
+              <li>
+                <a href="/Components/Ratings/rating.html">Rating</a>
+              </li>
+              <li>
+                <a href="/Components/Lists/lists.html">Lists</a>
+              </li>
+              <li class="active">
+                <a href="/Components/Navigation/navigation.html">Navigation</a>
+              </li>
+              <li>
+                <a href="/Components//Grid/grid.html">Grid</a>
+              </li>
+              <li>
+                <a href="/Components//Toast/toast.html">Toast</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- component -->
+
+        <div class="component-content">
+          <h1 class="component_heading">Navigation</h1>
+          <br />
+          <p>
+            Navigation component is used as header in top portion of your
+            application. The buttons can be used for redirecting you to differnt
+            pages.Use the code below for a responsive navigation bar.
+          </p>
+          <br />
+          <br />
+          <!-- //Navigation with Icons -->
+          <h6>Example of Navigation with Icons</h6>
+          <br />
+          <p>
+            A basic example of the navbar with the most common elements like
+            link,brand-logo, icons
+          </p>
+          <br />
+          <div class="elements-wrapper">
+            <div class="standard-header">
+              <nav class="navigation-bar flex">
+                <a href="#" class="hamberger-icon">
+                  <i class="material-icons-outlined"> menu </i>
+                </a>
+
+                <h4 class="logo brand-name">
+                  <a href="#"> Logo </a>
+                </h4>
+
+                <div class="navigation-right-icons">
+                  <a href="#" class="nav-wishlist-icon">
+                    <i class="material-icons-outlined"> favorite_border </i>
+                  </a>
+                  <a href="#" class="nav-cart-icon">
+                    <i class="material-icons-outlined"> shopping_cart </i>
+                  </a>
+                  <a href="#" class="nav-person-icon">
+                    <i class="material-icons"> person </i>
+                  </a>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navigation-bar%2520flex%2522%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522hamberger-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520menu%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navigation-desktop%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522logo%2520brand-name%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Logo%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh4%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navigation-right-icons%2522%253E%250A%25C2%25A0%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-wishlist-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520favorite_border%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-cart-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520shopping_cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-person-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520person%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
+              style="
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+                background-color: #fafafa;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <!-- Basic navigation -->
+          <h6>Examples of Basic Navigation</h6>
+          <br />
+          <p>
+            The basic navigation consists of a brand name or logo, a search bar,
+            links.
+          </p>
+          <br />
+          <div class="elements-wrapper">
+            <div class="basic-header">
+              <nav class="navigation-bar flex">
+                <div class="navigation-desktop flex">
+                  <h4 class="logo brand-name" id="basic-nav-heading">
+                    <a href="#"> Logo </a>
+                  </h4>
+                  <form class="search-container">
+                    <input
+                      type="search"
+                      placeholder="search.."
+                      class="search-field"
+                    />
+                    <button type="submit" class="search-icon">
+                      <i class="fas fa-search"></i>
+                    </button>
+                  </form>
+                  <div class="basic-right-icons">
+                    <a href="#" class="nav-wishlist-icon">
+                      <i class="material-icons-outlined"> favorite_border </i>
+                    </a>
+                    <a href="#" class="nav-cart-icon">
+                      <i class="material-icons-outlined"> shopping_cart </i>
+                    </a>
+                    <a href="#" class="nav-person-icon">
+                      <i class="material-icons"> person </i>
+                    </a>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navigation-bar%2520flex%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navigation-desktop%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522logo%2520brand-name%2522%2520id%253D%2522basic-nav-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Logo%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cform%2520class%253D%2522search-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522search%2522%2520placeholder%253D%2522search..%2522%2520class%253D%2522search-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522submit%2522%2520class%253D%2522search-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-search%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522basic-right-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-wishlist-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520favorite_border%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-cart-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520shopping_cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-person-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520person%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
+              style="
+                background-color: #fafafa;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="page-nav">
+            <a class="prev-page" href="/Components/Lists/lists.html"
+              ><span class="material-icons"> keyboard_arrow_left </span>Lists</a
+            >
+            <a class="next-page" href="../Grid/grid.html"
+              >Grid<span class="material-icons"> keyboard_arrow_right </span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

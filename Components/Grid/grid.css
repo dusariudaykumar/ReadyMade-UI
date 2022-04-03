@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+}
+.grid-col-2 {
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+}
+.grid-item {
+  height: 9rem;
+  text-align: center;
+  font-size: large;
+  padding: 1rem;
+  color: var(--white);
+  background-color: var(--primary-color);
+}
+.grid-col-3 {
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 10px;
+}
