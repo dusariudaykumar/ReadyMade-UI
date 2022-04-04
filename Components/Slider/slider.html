@@ -12,7 +12,7 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="/CSS/main.css" />
-    <title>ReadyMade-UI | Grid</title>
+    <title>ReadyMade-UI | Slider</title>
   </head>
 
   <body>
@@ -80,7 +80,7 @@
               <li>
                 <a href="/Components/Navigation/navigation.html">Navigation</a>
               </li>
-              <li class="active">
+              <li>
                 <a href="/Components/Grid/grid.html">Grid</a>
               </li>
               <li>
@@ -89,7 +89,7 @@
               <li>
                 <a href="/Components/Modal/modal.html">Modal</a>
               </li>
-              <li>
+              <li class="active">
                 <a href="/Components/Slider/slider.html">Slider</a>
               </li>
             </ul>
@@ -98,46 +98,29 @@
         <!-- component -->
 
         <div class="component-content">
-          <h1 class="component_heading mb-1">Grid</h1>
+          <h1 class="component_heading mb-1">Slider</h1>
 
-          <p>
-            CSS Grid Layout is a CSS layout method designed for the
-            two-dimensional layout of items on a webpage
-          </p>
-          <h6 class="mtb-1">Grid with 2 Columns</h6>
-          <p>This is a grid layout with 2 columns.</p>
+          <p>Sliders allow users to make selections from a range of values.</p>
+          <h6 class="mtb-1">Simple Toast</h6>
+          <p></p>
           <div class="elements-wrapper">
-            <div class="grid grid-col-2">
-              <div class="grid-item">One</div>
-              <div class="grid-item">Two</div>
+            <div class="slider-container flex">
+              <div class="slider-min-value">0</div>
+              <input
+                type="range"
+                class="slider-range"
+                min="0"
+                max="100"
+                marks
+                step="1"
+              />
+              <div class="slider-max-value">100</div>
             </div>
           </div>
-          <div class="code-snippet-display">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid%2520grid-col-2%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253EOne%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253ETwo%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-              style="
-                background-color: #fafafa;
-                border: 0;
-                transform: scale(1);
-                overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
 
-          <h6 class="mtb-1">Grid with 3 Columns</h6>
-          <p>This simple grid consists of 3 columns .</p>
-          <div class="elements-wrapper">
-            <div class="grid grid-col-3">
-              <div class="grid-item">One</div>
-              <div class="grid-item">Two</div>
-              <div class="grid-item">Three</div>
-            </div>
-          </div>
           <div class="code-snippet-display">
             <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522grid%2520grid-col-3%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253EOne%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253ETwo%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253EThree%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522slider-container%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slider-min-value%2522%253E0%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520class%253D%2522slider-range%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520marks%2520step%253D%25221%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slider-max-value%2522%253E100%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
               style="
                 background-color: #fafafa;
                 border: 0;
@@ -150,16 +133,14 @@
           </div>
 
           <div class="page-nav">
-            <a class="prev-page" href="/Components/Navigation/navigation.html">
+            <a class="prev-page" href="/Components/Modal/modal.html">
               <span class="material-icons"> keyboard_arrow_left </span>
-              Navigation
-            </a>
-            <a class="next-page" href="/Components/Toast/toast.html">
-              Toast <span class="material-icons"> keyboard_arrow_right </span>
+              Modal
             </a>
           </div>
         </div>
       </div>
     </div>
+    <script src="./toast.js"></script>
   </body>
 </html>

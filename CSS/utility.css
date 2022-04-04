@@ -196,8 +196,11 @@ a {
 
 /*************** scroll bar ************/
 ::-webkit-scrollbar {
-  width: 0;
-  height: 0;
+  width: 0.4rem;
+  background-color: var(--silder-color);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
 }
 
 /********flex ***********/

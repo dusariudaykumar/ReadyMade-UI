@@ -1,0 +1,47 @@
+.modal-container {
+  width: 30rem;
+  margin: 1rem;
+  border-radius: 3px;
+  border: 1px solid var(--grey);
+  box-shadow: var(--default-box-shadow);
+}
+.modal-title-container {
+  justify-content: space-between;
+  border-bottom: 1px solid var(--grey);
+  padding: 0.5rem;
+}
+.modal-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.modal-btn-close {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.modal-description {
+  min-height: 4rem;
+  font-size: 1.2rem;
+  border-bottom: 1px solid var(--grey);
+  padding: 0.5rem;
+}
+.modal-btn-container {
+  justify-content: end;
+  padding: 0.5rem;
+}
+.modal-close-btn {
+  text-transform: capitalize;
+  background-color: var(--grey);
+  color: var(--white);
+}
+.modal-save-btn {
+  text-transform: capitalize;
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

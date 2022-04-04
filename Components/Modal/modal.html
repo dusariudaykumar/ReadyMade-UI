@@ -12,7 +12,7 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="/CSS/main.css" />
-    <title>ReadyMade-UI | Grid</title>
+    <title>ReadyMade-UI | Modal</title>
   </head>
 
   <body>
@@ -80,13 +80,13 @@
               <li>
                 <a href="/Components/Navigation/navigation.html">Navigation</a>
               </li>
-              <li class="active">
+              <li>
                 <a href="/Components/Grid/grid.html">Grid</a>
               </li>
               <li>
                 <a href="/Components/Toast/toast.html">Toast</a>
               </li>
-              <li>
+              <li class="active">
                 <a href="/Components/Modal/modal.html">Modal</a>
               </li>
               <li>
@@ -98,46 +98,37 @@
         <!-- component -->
 
         <div class="component-content">
-          <h1 class="component_heading mb-1">Grid</h1>
+          <h1 class="component_heading mb-1">Modal</h1>
 
           <p>
-            CSS Grid Layout is a CSS layout method designed for the
-            two-dimensional layout of items on a webpage
+            A modal is a dialog box/popup window that is displayed on top of the
+            current page.
           </p>
-          <h6 class="mtb-1">Grid with 2 Columns</h6>
-          <p>This is a grid layout with 2 columns.</p>
+          <h6 class="mtb-1">Simple Modal</h6>
+          <p>
+            A simple modal consists of a text conveying information along with
+            action buttons.
+          </p>
           <div class="elements-wrapper">
-            <div class="grid grid-col-2">
-              <div class="grid-item">One</div>
-              <div class="grid-item">Two</div>
+            <div class="modal-container flex-col">
+              <div class="modal-title-container flex">
+                <div class="modal-text">Modal Title</div>
+                <button class="modal-btn-close">
+                  <span class="material-icons-outlined"> close </span>
+                </button>
+              </div>
+              <div class="modal-description mt-1">
+                Modal body text goes here.
+              </div>
+              <div class="modal-btn-container flex">
+                <button class="modal-close-btn btn">Close</button>
+                <button class="btn modal-save-btn">Save changes</button>
+              </div>
             </div>
           </div>
           <div class="code-snippet-display">
             <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid%2520grid-col-2%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253EOne%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253ETwo%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-              style="
-                background-color: #fafafa;
-                border: 0;
-                transform: scale(1);
-                overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
-
-          <h6 class="mtb-1">Grid with 3 Columns</h6>
-          <p>This simple grid consists of 3 columns .</p>
-          <div class="elements-wrapper">
-            <div class="grid grid-col-3">
-              <div class="grid-item">One</div>
-              <div class="grid-item">Two</div>
-              <div class="grid-item">Three</div>
-            </div>
-          </div>
-          <div class="code-snippet-display">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522grid%2520grid-col-3%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253EOne%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253ETwo%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253EThree%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=177%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522modal-container%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-title-container%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-text%2522%253EModal%2520Title%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal-btn-close%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%2520close%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-description%2520mt-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520Modal%2520body%2520text%2520goes%2520here.%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-btn-container%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal-close-btn%2520btn%2522%253EClose%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520modal-save-btn%2522%253ESave%2520changes%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
               style="
                 background-color: #fafafa;
                 border: 0;
@@ -150,16 +141,17 @@
           </div>
 
           <div class="page-nav">
-            <a class="prev-page" href="/Components/Navigation/navigation.html">
+            <a class="prev-page" href="/Components/Toast/toast.html">
               <span class="material-icons"> keyboard_arrow_left </span>
-              Navigation
+              Toast
             </a>
-            <a class="next-page" href="/Components/Toast/toast.html">
-              Toast <span class="material-icons"> keyboard_arrow_right </span>
+            <a class="next-page" href="/Components/Slider/slider.html">
+              Slider <span class="material-icons"> keyboard_arrow_right </span>
             </a>
           </div>
         </div>
       </div>
     </div>
+    <script src="./toast.js"></script>
   </body>
 </html>
