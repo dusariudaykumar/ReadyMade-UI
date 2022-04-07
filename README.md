@@ -94,6 +94,23 @@ Go to the project directory
 - [Navigation](https://readymade-ui.netlify.app/components/navigation/navigation)
   * Navigation with Icons
   * Basic Navigation
+ 
+ - [Grid](https://624f21cc9044852c19139c91--readymade-ui.netlify.app/components/grid/grid)
+   * Grid with 2 columns
+   * Grid with 3 columns
+  
+  
+ - [Modal](https://624f21cc9044852c19139c91--readymade-ui.netlify.app/components/modal/modal)
+   * Simple Modal
+
+ - [Toast](https://624f21cc9044852c19139c91--readymade-ui.netlify.app/components/toast/toast)
+   * Simple Toast
+
+ - [Slider](https://624f21cc9044852c19139c91--readymade-ui.netlify.app/components/slider/slider)
+   * Simple Slider
+
+
+
 <hr/>
 
 ## [Alert](https://readymade-ui.netlify.app/components/alert/alert)
@@ -162,6 +179,30 @@ Navigation component is used as header in top portion of your application. The b
 
 <hr/>
 
+##  [Grid](https://624f21cc9044852c19139c91--readymade-ui.netlify.app/components/grid/grid)
+
+The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+
+<hr/>
+
+##  [Modal](https://624f21cc9044852c19139c91--readymade-ui.netlify.app/components/modal/modal)
+
+The modal component provides a solid foundation for creating dialogs, popovers, lightboxes, or whatever else.
+
+<hr/>
+
+##  [Toast](https://624f21cc9044852c19139c91--readymade-ui.netlify.app/components/toast/toast)
+
+The toast component is a non-disruptive message that appears at the bottom of the interface to provide quick, at-a-glance feedback on the outcome of an action.
+
+<hr/>
+
+##  [Slider](https://624f21cc9044852c19139c91--readymade-ui.netlify.app/components/slider/slider)
+
+Sliders allow users to view and select a value (or range) from the range along a bar. They’re ideal for adjusting settings such as volume and brightness, or for applying image filters..
+
+<hr/>
+
 ## Tech Stack
 
 **Client:** HTML, CSS
@@ -192,5 +233,4 @@ This project is used by the following web apps:
 
 [Uday Kumar](https://github.com/dusariudaykumar)
 
----------------------------aa--------
 
